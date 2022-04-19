@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 button,
 input[type=submit],
 input[type=reset] {
@@ -32,20 +37,41 @@ a {
           flex-direction: row;
 }
 
-.line {
-  border-bottom: 2px solid green;
+.separation {
+  margin: 20px 0;
+}
+.separation .line {
+  border-bottom: 2px solid red;
   display: block;
   width: 80%;
 }
 
 .center {
-  margin: 10px auto;
+  margin: 0 auto;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shadow {
+  -webkit-box-shadow: 5px 5px 10px red;
+          box-shadow: 5px 5px 10px red;
 }
 
 .under-construction {
   text-align: center;
   color: red;
+}
+
+.h2 {
+  display: block;
+  width: 80%;
+  margin-bottom: 50px;
+  text-transform: uppercase;
 }
 
 i {
@@ -60,6 +86,21 @@ i {
 #intro-photo {
   width: 80%;
   margin: 20px;
+}
+
+.project-image-container .project-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.project-image-container img {
+  border-radius: 15px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 nav.wrapper {
@@ -116,7 +157,7 @@ nav.wrapper {
 }
 
 .image-container {
-  background-color: red;
+  background-color: yellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,12 +167,6 @@ nav.wrapper {
           flex-direction: column;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .text-details {
@@ -144,24 +179,76 @@ nav.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   background-color: green;
   margin: 10px auto;
   height: 100px;
-  width: 80%;
+  width: 90%;
 }
 
 .button-like,
 .download-resume {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: pink;
   text-transform: uppercase;
   margin: 20px;
   padding: 10px;
-  width: 120px;
+  width: 150px;
   height: 50px;
+}
+
+.skills-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+}
+
+.technical-skills-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+li {
+  width: 100px;
+  -ms-flex-preferred-size: 16%;
+      flex-basis: 16%;
+  padding: 10px;
+}
+
+.projects-container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project {
+  background-color: blue;
+  width: 30%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.project-image-container {
+  width: 100%;
+}
+
+.project-text-container {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
 }

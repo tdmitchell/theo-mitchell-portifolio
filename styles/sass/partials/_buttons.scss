@@ -2,10 +2,13 @@
 
 .button-like,
 .download-resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: pink;
   text-transform: uppercase;
   margin: 20px;
   padding: 10px;
-  width: 120px;
+  width: 150px;
   height: 50px;
 }

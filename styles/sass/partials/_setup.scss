@@ -1,4 +1,10 @@
-// Cleaning Styles
+/// 1. Cleaning Styles
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 button,
 input[type="submit"],
 input[type="reset"] {
@@ -24,8 +30,8 @@ a {
 
 
 
-
-//Define the Wrapper
+/// 2. General Definitions 
+// Wrapper
 .wrapper {
   width: 80%;
   margin: 0 auto;
@@ -34,16 +40,27 @@ a {
 
 }
 
-// Define Horizontal Line
-.line {
-  border-bottom: 2px solid green;
-  display: block;
-  width: 80%;
+// Horizontal Line
+.separation{
+  margin: 20px 0;
+
+  .line {
+    border-bottom: 2px solid red;
+    display: block;
+    width: 80%;
+  }
 }
+  
 
 .center {
-  margin: 10px auto;
+  margin: 0 auto;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow {
+  box-shadow: 5px 5px 10px red;
 }
 
 

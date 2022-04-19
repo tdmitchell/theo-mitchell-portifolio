@@ -1,0 +1,22 @@
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.technical-skills-list {
+  display: flex;
+  // flex-direction: row;
+  flex-wrap: wrap;
+  // justify-content: center;
+  // align-items: center;
+}
+
+// ul .technical-skills-item
+li {
+  width: 100px;
+  flex-basis: 16%;
+  padding: 10px;
+
+  // background-size: 100% 100%;
+}
