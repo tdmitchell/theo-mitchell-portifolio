@@ -22,7 +22,6 @@ li {
 
 a {
   text-decoration: none;
-  color: darkcyan;
 }
 
 .wrapper {
@@ -38,10 +37,9 @@ a {
 }
 
 .separation {
-  margin: 20px 0;
+  margin: 40px 0;
 }
 .separation .line {
-  border-bottom: 2px solid red;
   display: block;
   width: 80%;
 }
@@ -57,14 +55,41 @@ a {
           align-items: center;
 }
 
-.shadow {
-  -webkit-box-shadow: 5px 5px 10px red;
-          box-shadow: 5px 5px 10px red;
-}
-
 .under-construction {
   text-align: center;
   color: red;
+}
+
+* {
+  background-color: #222428;
+}
+
+.button-like,
+.download-resume,
+.project {
+  background-color: #C7CEDE;
+  color: #CC294C;
+}
+
+a {
+  color: #C7CEDE;
+}
+
+.project {
+  background-color: #222428;
+}
+
+.h2 {
+  color: #C7CEDE;
+}
+
+.shadow {
+  -webkit-box-shadow: 15px 15px 15px #141618;
+          box-shadow: 15px 15px 15px #141618;
+}
+
+.separation .line {
+  border-bottom: 2px solid #CC294C;
 }
 
 .h2 {
@@ -138,7 +163,6 @@ nav.wrapper {
 }
 
 .text-container {
-  background-color: blue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -157,7 +181,6 @@ nav.wrapper {
 }
 
 .image-container {
-  background-color: yellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,7 +193,6 @@ nav.wrapper {
 }
 
 .text-details {
-  background-color: yellow;
   margin: 30px;
   padding: 30px;
 }
@@ -179,7 +201,6 @@ nav.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: green;
   margin: 10px auto;
   height: 100px;
   width: 90%;
@@ -196,7 +217,6 @@ nav.wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: pink;
   text-transform: uppercase;
   margin: 20px;
   padding: 10px;
@@ -237,7 +257,6 @@ li {
 }
 
 .project {
-  background-color: blue;
   width: 30%;
   padding: 20px;
   border-radius: 15px;
