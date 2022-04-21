@@ -1,0 +1,41 @@
+$background: #222428;
+$shadow: #141618;
+$text: #C7CEDE;
+$secundary: #CC294C;
+
+* {
+  background-color: $background;
+}
+
+.button-like,
+.download-resume,
+.project {
+  background-color: $text;
+  color: $secundary;
+}
+
+a {
+  color: $text;
+}
+
+.project {
+  background-color: $background;
+}
+
+.h2 {
+  color: $text;
+}
+
+.shadow {
+  box-shadow: 15px 15px 15px $shadow;
+}
+
+
+// Horizontal Line
+.separation {
+
+  .line {
+    border-bottom: 2px solid $secundary;
+  }
+}
+  

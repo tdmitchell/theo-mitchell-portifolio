@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 button,
 input[type=submit],
 input[type=reset] {
@@ -17,7 +22,6 @@ li {
 
 a {
   text-decoration: none;
-  color: darkcyan;
 }
 
 .wrapper {
@@ -32,20 +36,67 @@ a {
           flex-direction: row;
 }
 
-.line {
-  border-bottom: 2px solid green;
+.separation {
+  margin: 40px 0;
+}
+.separation .line {
   display: block;
   width: 80%;
 }
 
 .center {
-  margin: 10px auto;
+  margin: 0 auto;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .under-construction {
   text-align: center;
   color: red;
+}
+
+* {
+  background-color: #222428;
+}
+
+.button-like,
+.download-resume,
+.project {
+  background-color: #C7CEDE;
+  color: #CC294C;
+}
+
+a {
+  color: #C7CEDE;
+}
+
+.project {
+  background-color: #222428;
+}
+
+.h2 {
+  color: #C7CEDE;
+}
+
+.shadow {
+  -webkit-box-shadow: 15px 15px 15px #141618;
+          box-shadow: 15px 15px 15px #141618;
+}
+
+.separation .line {
+  border-bottom: 2px solid #CC294C;
+}
+
+.h2 {
+  display: block;
+  width: 80%;
+  margin-bottom: 50px;
+  text-transform: uppercase;
 }
 
 i {
@@ -60,6 +111,21 @@ i {
 #intro-photo {
   width: 80%;
   margin: 20px;
+}
+
+.project-image-container .project-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.project-image-container img {
+  border-radius: 15px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 nav.wrapper {
@@ -97,7 +163,6 @@ nav.wrapper {
 }
 
 .text-container {
-  background-color: blue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,7 +181,6 @@ nav.wrapper {
 }
 
 .image-container {
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,16 +190,9 @@ nav.wrapper {
           flex-direction: column;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .text-details {
-  background-color: yellow;
   margin: 30px;
   padding: 30px;
 }
@@ -144,24 +201,73 @@ nav.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: green;
   margin: 10px auto;
   height: 100px;
-  width: 80%;
+  width: 90%;
 }
 
 .button-like,
 .download-resume {
-  background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-transform: uppercase;
   margin: 20px;
   padding: 10px;
-  width: 120px;
+  width: 150px;
   height: 50px;
+}
+
+.skills-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+}
+
+.technical-skills-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+li {
+  width: 100px;
+  -ms-flex-preferred-size: 16%;
+      flex-basis: 16%;
+  padding: 10px;
+}
+
+.projects-container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project {
+  width: 30%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.project-image-container {
+  width: 100%;
+}
+
+.project-text-container {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
 }

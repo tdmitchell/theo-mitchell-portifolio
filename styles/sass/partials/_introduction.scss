@@ -3,7 +3,7 @@
 }
 
 .text-container {
-  background-color: blue;
+  // background-color: blue;
   display: flex;
   flex-basis: 50%;
   flex-direction: column;
@@ -12,28 +12,28 @@
 }
 
 .image-container {
-  background-color: red;
+  // background-color: $primary;
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
-  justify-content: center;
-  align-items: center;
+  // justify-content: center;
+  // align-items: center;
 }
 
 .text-details {
-  background-color: yellow;
+  // background-color: $primary;
   margin: 30px;
   padding: 30px;
 }
 
 .text-resume{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: green;
+  // align-items: center;
+  // justify-content: center;
+  // background-color: green;
   margin: 10px auto;
   height: 100px;
-  width: 80%;
+  width: 90%;
 }
 
 
