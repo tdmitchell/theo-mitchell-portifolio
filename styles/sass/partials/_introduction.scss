@@ -1,5 +1,5 @@
 .introduction {
-  height: 85vh;
+  height: 65vh;
 }
 
 .text-container {
@@ -12,17 +12,15 @@
 }
 
 .image-container {
-  // background-color: $primary;
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
-  // justify-content: center;
-  // align-items: center;
 }
 
 .text-details {
   // background-color: $primary;
-  margin: 30px;
+  width: 100%;
+  margin: 15px;
   padding: 30px;
 }
 
@@ -33,7 +31,7 @@
   // background-color: green;
   margin: 10px auto;
   height: 100px;
-  width: 90%;
+  width: 100%;
 }
 
 

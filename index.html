@@ -8,6 +8,7 @@
   <title>Theo Mitchell's Portfolio</title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <script src="https://kit.fontawesome.com/be06c70ad0.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -25,22 +26,22 @@
       <div class="header-right">
         <ul>
           <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
+            <a href="#introduction" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Skills</a>
+            <a href="#skills" class="nav-link">Skills</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Portfolio</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="#resume" class="nav-link">Resume</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Resume</a>
-          </li>
+            <a href="#testimonial" class="nav-link">Testimonial</a>
+          </li> -->
           <li class="nav-item">
-            <a href="#" class="nav-link">Testimonial</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
+            <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
         <a href="#"></a>
@@ -52,16 +53,11 @@
   <!-- Start Main Area -->
   <main>
     <!-- Start Introduction Area -->
-    <section class="under-construction">
-      <h1>Site under construction!</h1>
-      <h4>Soon you will have information about Theo Mitchell Web Developer and Software Engineering Technician.</h2>
-    </section> <!-- /.under-construction -->
-
     <section class="introduction wrapper">
       <div class="wrapper text-container">
-        <div class="text-details shadow">
+        <div class="text-details shadow background-2">
           <h1>Hi, I'm Theo</h1>
-          <p>A Web Developer and Software Engineer Technician</p>
+          <p>A Web Developer and Software Engineer Technician.</p>
           <p>
             Eager to learn and highly motivated. Graduated from Centennial College
             with high honours and Juno College of Technology. My proven skills, knowledge, and
@@ -70,22 +66,32 @@
           </p>
         </div> <!-- /.text-details-->
 
-        <div class="text-resume shadow center">
+        <div class="text-resume shadow center background-2">
           <button class="download-resume shadow">Download CV</button>
           <a href="#" class="button-like shadow">Contact Me</a>
         </div> <!-- /.text-resume-->
-
       </div> <!-- /.text-container-->
+
       <div class="image-container center">
         <img id="intro-photo" class="shadow" src="assets/images/1.jpg" alt="Small image of Theo Mitchell">
       </div> <!-- /.image-container-->
     </section> <!-- /.introduction -->
     <!-- End Introduction Area -->
+    <aside>
+      <ul class="personal-images-container wrapper">
+        <li class="personal-image center"><img src="./assets/images/projects/beachstays.png" alt=""></li>
+        <li class="personal-image center"><img src="./assets/images/projects/beachstays.png" alt=""></li>
+        <li class="personal-image center"><img src="./assets/images/projects/beachstays.png" alt=""></li>
+        <li class="personal-image center"><img src="./assets/images/projects/beachstays.png" alt=""></li>
+        <li class="personal-image center"><img src="./assets/images/projects/beachstays.png" alt=""></li>
+      </ul>
+    </aside>
 
-    <div class="separation">
+
+
+    <div class="separation" id="skills">
       <span class="line center"></span>
-    </div>
-
+    </div> <!-- /.separation -->
 
     <!-- Start Skills Area -->
     <section class="skills skills-container wrapper">
@@ -134,108 +140,238 @@
           <i class="devicon-jquery-plain-wordmark colored"></i>
         </li>
         <li class="technical-skills-item">
-          <i class="1"></i>
+          <i class="devicon-jquery-plain-wordmark colored"></i>
         </li>
-        <li class="technical-skills-item">
-          <i class="1"></i>
-        </li>
-        <li class="technical-skills-item">
-          <i class="1"></i>
-        </li>
-        <li class="technical-skills-item">
-          <i class="1"></i>
-        </li>
-        <li class="technical-skills-item">
-          <i class="1"></i>
-        </li>
-        <li class="technical-skills-item">
-          <i class="1"></i>
-        </li>
-
       </ul>
     </section> <!-- /.skills-container -->
     <!-- End Skills Area -->
 
-    <div class="separation">
+
+
+    <div class="separation" id="portfolio">
       <span class="line center"></span>
-    </div>
+    </div> <!-- /.separation -->
 
     <!-- Start Portfolio Area -->
-    <section class="portfolio ">
+    <section class="portfolio">
       <div class="title">
-        <h2 class="center h2">portfolio</h2>
-      </div>
+        <h2 class="center h2 portfolio-title">portfolio</h2>
+        <!-- <h2 class="center h2 contact-title">contact</h2> -->
+        <h4 class="contact-text center portfolio-subtitle">Some interesting projects made during my trajectory as <br>
+          Web
+          Developer and Software Engineering Technician</h4>
+      </div> <!-- /.title -->
 
       <div class="projects-container wrapper">
-        <article class="project shadow">
+        <article class="project shadow background-2" id="project-1">
+          <!-- Trigger/Open The Modal -->
           <div class="project-image-container ">
-            <a href="javascript:void(0)">
-              <img class="project-image shadow" src="assets/images/projects/beachstays.png" alt="Project 1 - ">
-            </a>
+            <img class="project-image shadow" src="assets/images/projects/beachstays.png" alt="Project 1 - ">
           </div> <!-- /.project-image-container -->
 
           <div class="project-text-container">
             <div class="category-list">
-              <a href="javascript:void(0)">HTML | CSS</a>
+              <p>HTML | CSS1</p>
             </div>
-            <h4 class="title"><a href="javascript:void(0)">The services provide for design<i
-                  class="feather-arrow-up-right"></i></a>
+            <h4 class="title">
+              The services provide for design
             </h4>
+            <button id="project-1-btn" class="project-details center">Project details</button>
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
 
-        <article class="project shadow">
+        <article class="project shadow background-2" id="project-2">
+          <!-- Trigger/Open The Modal -->
           <div class="project-image-container ">
-            <a href="javascript:void(0)">
-              <img class="project-image shadow" src="assets/images/projects/toybox.png" alt="Project 1 - ">
-            </a>
+            <img class="project-image shadow" src="assets/images/projects/movie-trivia.png" alt="Project 2 - ">
           </div> <!-- /.project-image-container -->
 
           <div class="project-text-container">
             <div class="category-list">
-              <a href="javascript:void(0)">HTML | CSS</a>
+              <p>HTML | CSS2</p>
             </div>
-            <h4 class="title"><a href="javascript:void(0)">The services provide for design<i
-                  class="feather-arrow-up-right"></i></a>
+            <h4 class="title">
+              The services provide for design
             </h4>
+            <button id="project-2-btn" class="project-details center">Project details</button>
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
 
-        <article class="project shadow">
+        <article class="project shadow background-2" id="project-3">
+          <!-- Trigger/Open The Modal -->
           <div class="project-image-container ">
-            <a href="javascript:void(0)">
-              <img class="project-image shadow" src="assets/images/projects/toybox.png" alt="Project 1 - ">
-            </a>
+            <img class="project-image shadow" src="assets/images/projects/beachstays.png" alt="Project 3 - ">
           </div> <!-- /.project-image-container -->
 
           <div class="project-text-container">
             <div class="category-list">
-              <a href="javascript:void(0)">HTML | CSS</a>
+              <p>HTML | CSS3</p>
             </div>
-            <h4 class="title"><a href="javascript:void(0)">The services provide for design<i
-                  class="feather-arrow-up-right"></i></a>
+            <h4 class="title">
+              The services provide for design
             </h4>
+            <button id="project-3-btn" class="project-details center">Project details</button>
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
-      </div>
 
+        <article class="project shadow background-2" id="project-4">
+          <!-- Trigger/Open The Modal -->
+          <div class="project-image-container ">
+            <img class="project-image shadow" src="assets/images/projects/beachstays.png" alt="Project 4 - ">
+          </div> <!-- /.project-image-container -->
+
+          <div class="project-text-container">
+            <div class="category-list">
+              <p>HTML | CSS4</p>
+            </div>
+            <h4 class="title">
+              The services provide for design
+            </h4>
+            <button id="project-4-btn" type="button" class="project-details center" data-open="modal1">Project
+              details</button>
+          </div> <!-- /.project-text-container -->
+        </article> <!-- /.project -->
+
+      </div> <!-- /.projects-container -->
     </section> <!-- /.portfolio -->
+
+    <!-- Modal Implementation for Project Detail -->
+    <div class="wrapper">
+      <!-- The Modal for Project 1-->
+      <div id="my-modal-project-1" class="modal">
+        <div class="modal-header">
+
+        </div>
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close"><i class="fa-solid fa-circle-xmark"></i></span>
+          <br><br><br>
+          <div class="modal-image-container center wrapper">
+            <img src="./assets/images/projects/beachstays.png" alt="XXX" class="project-detail-photo">
+          </div> <!-- /.modal-image-container-->
+
+          <div class="project-1-details">
+            <p><span>Technology:</span> HTML | SCSS | Git | GitHub</p>
+            <p class=""><span>Year:</span> 2021</p>
+            <h2 class=""></h2>
+            <p><span>Project description:</span>
+              Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facerpossim assum.
+              Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
+              Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
+              processus dynamicus, qui
+              sequitur mutationem consuetudium lectorum.</p>
+
+            <div class="live-code">
+              <a href="">Live site</a>
+              <a href="">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <!-- End Modal content -->
+      </div> <!-- /#my-modal-project-1 -->
+
+
+
+
+
+
+
+    </div>
+    <!-- End Modal Implementation Area -->
     <!-- End portfolio Area -->
 
-    <div class="separation">
+
+
+    <!--<div class="separation" id="testimonial">
       <span class="line center"></span>
-    </div>
+    </div>  /.separation -->
 
+    <!-- Start Testimonial Area -->
+    <!-- <section class="testimonial ">
+      <div class="title">
+        <h2 class="center h2">testimonial</h2> 
+    <!-- </div> /.title 
+    <!-- </section> /.Testimonial 
 
+    <!-- End Testimonial Area -->
 
+    <div class="separation" id="contact">
+      <span class="line center"></span>
+    </div> <!-- /.separation -->
+
+    <!-- Start Contact Area -->
+    <section class="contact">
+      <div class="title">
+        <h2 class="center h2 contact-title">contact</h2>
+        <h4 class="contact-text center contact-subtitle">Looking forward to get in touch with You!</h4>
+      </div> <!-- /.title -->
+
+      <div class="contact-section wrapper">
+        <article class="info-container">
+          <div class="info-content-container background-2 shadow">
+            <span class="contact-info"><i class="fa-solid fa-phone-volume contact-info-icon"></i></span>
+            <span class="contact-info-1"><i class="fa-brands fa-whatsapp contact-info-icon"></i></span>
+            <div class="phone">
+              <p class="name">Call Me</p>
+              <p class="name">647-679-3970</p>
+            </div>
+
+          </div>
+
+          <div class="info-content-container background-2 shadow">
+            <span class="contact-info"><i class="fa-solid fa-envelope contact-info-icon"></i></span>
+            <div class="e-mail">
+              <p class="name">E-mail</p>
+              <p class="name">theomitchell@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="info-content-container background-2 shadow">
+            <span class="contact-info"><i class="fa-solid fa-location-dot contact-info-icon"></i></span>
+            <div class="location">
+              <p class="name">Location</p>
+              <p class="name">M4S 2H4</p>
+              <p class="name">Toronto - ON</p>
+            </div>
+          </div>
+
+          <div class="info-content-container social background-2 shadow">
+            <a href="https://github.com/tdmitchell"><i class="devicon-github-original"></i></a>
+            <a href="https://www.linkedin.com/in/theo-mitchell/"><i class="devicon-linkedin-plain colored"></i></a>
+          </div>
+        </article>
+
+        <article class="form-container center shadow">
+          <lable class="form-element sr-only" for="name"></lable>
+          <input type="text" class="form-element " name="name" id="name" placeholder="Full name">
+
+          <lable class="form-element sr-only" for="lastName"></lable>
+          <input type="email" class="form-element " name="email" id="email" placeholder="email">
+
+          <lable class="form-element sr-only" for="lastName"></lable>
+          <input type="tel" class="form-element" name="telephone" id="telephone" placeholder="phone">
+
+          <lable class="form-element sr-only" for="lastName"></lable>
+          <textarea type="text" class="form-element " name="message" id="message" cols="30" rows="10"
+            placeholder="Leave your message here..."></textarea>
+
+          <button class="submit-form center">Send message</button>
+        </article>
+      </div> <!-- /.contact-section -->
+
+    </section> <!-- /.contact -->
+    <!-- End Contact Area -->
   </main>
   <!-- End Main Area -->
 
+  <footer>
+    <p class="center">Develop by Theo Dias Mitchell - 2022</p>
+    <p class="center">During Web Development Bootcamp at Juno College of Technology</p>
+  </footer>
 
 
 
-
-
+  <script src="./scripts/portifolio.js"></script>
 </body>
 
 </html>

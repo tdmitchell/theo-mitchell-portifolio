@@ -1,41 +1,116 @@
-$background: #222428;
-$shadow: #141618;
-$text: #C7CEDE;
-$secundary: #CC294C;
+// $background: #222428;
+// $background-2: #2f3237;
+// $shadow: #deb914;
+// $text: #C7CEDE;
+// $secundary: #dec761;
 
-* {
+$background: #ffffff;
+$background-2: #f1f3e7;
+$shadow: #dec761;
+$text: #222428;
+$greetings: #2a61ce;
+$secundary: #dec761;
+$buttonHover: #2727d8;
+
+
+
+
+
+
+
+body {
   background-color: $background;
-}
-
-.button-like,
-.download-resume,
-.project {
-  background-color: $text;
-  color: $secundary;
-}
-
-a {
   color: $text;
+
+  header {
+    background-color: $background-2;
+  }
+  
+  h1 {
+    color: $greetings;
+  }
+  
+  .h2 {
+    color: $text;
+  }
+  
+  .background-2 {
+    background-color: $background-2;
+  }
+
+  .button-like,
+  .download-resume,
+  .submit-form,
+  .project-details {
+    background-color: $text;
+    color: $background;
+
+    &:hover {
+      background-color: rgb(39, 39, 216);    
+    }
+  }
+  
+  a {
+    color: $text;
+  }
+  
+  .shadow {
+    box-shadow: 5px 5px 5px $shadow;
+  }
+
 }
 
-.project {
-  background-color: $background;
-}
 
-.h2 {
-  color: $text;
-}
 
-.shadow {
-  box-shadow: 15px 15px 15px $shadow;
-}
+
 
 
 // Horizontal Line
 .separation {
-
   .line {
     border-bottom: 2px solid $secundary;
   }
 }
-  
+
+.project {
+  background-color: $background-2;
+}
+
+
+
+.contact-section {
+  .contact-info,
+  .contact-info-1 {
+    color: $secundary;
+  }
+
+  .form-container {
+    background-color: $background-2;
+  }
+}
+
+
+footer {
+  background-color: $background-2;
+}
+
+//Modal for Project
+.modal {
+  background-color: #00000066;
+  /* Black w/ opacity */
+
+  .modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888888;
+
+    /* The Close Button */
+    .close {
+      color: #00ff73;
+
+      &:hover,
+      &:focus {
+        color: #ff0000;
+      }
+    }
+  }
+}
