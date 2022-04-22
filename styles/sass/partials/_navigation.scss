@@ -9,10 +9,14 @@ nav.wrapper {
 
 .header-right {
   width: 70%;
-}
 
-.header-right ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    li {
+      text-align: right;
+    }
+  }
 }

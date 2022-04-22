@@ -1,13 +1,48 @@
-
-
 .button-like,
-.download-resume {
+.download-resume,
+.submit-form,
+.project-details {
   display: flex;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  margin: 20px;
   padding: 10px;
   width: 150px;
-  height: 50px;
+  height: 50px; 
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.button-like,
+.download-resume {
+  margin: 20px;
+}
+
+.submit-form {
+  margin: 0px;
+}
+
+
+.project-details {
+  margin-top: 50px;
+
+} 
+.modal {
+  .modal-content {
+    /* The Close Button */
+    .close {
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      
+      &:hover,
+      &:focus {
+        // color: red;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
 }
