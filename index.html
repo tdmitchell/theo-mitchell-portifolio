@@ -438,17 +438,31 @@
         <article class="form-container center shadow">
           <form action="https://formsubmit.co/tdmitchell1969@gmail.com" method="POST">
             <input type="hidden" name="_subject" value="New contact from protfolio!">
-            <input type="text" name="name" placeholder="name" required>
-            <input type="email" name="email" placeholder="Email Address" required>
-            <button type="submit">Send</button>
+            <input type="hidden" name="_autoresponse"
+              value="Thank you for reaching out. I will contact you soon. Regards, Theo Mitchell">
+
+
+
+            <lable class="form-element sr-only" for="name">Full name</lable>
+            <input type="text" class="form-element" id="name" name="name" placeholder="Enter full name" required>
+
+            <lable class="form-element sr-only" for="email">Email Address</lable>
+            <input type="email" class="form-element" id="email" name="email" placeholder="Email Address" required>
+
+            <lable class="form-element sr-only" for="telephone">Phone</lable>
+            <input type="tel" class="form-element" id="telephone" name="telephone" placeholder="phone">
+
+            <lable class="form-element sr-only" for="message">Message</lable>
+            <textarea type="text" class="form-element" id="message" name="message" cols="30" rows="10"
+              placeholder="Leave your message here..." required></textarea>
+
+            <button type="submit" class="submit-form center">Send message</button>
           </form>
 
 
           <!-- <form action="mailto:tdmitchell1969@gmail.com" method="POST" enctype="text/plain"> -->
           <!-- <form action="https://getform.io/f/c3920822-da48-4ddc-a0fe-9bc6beb01e40" method="POST" enctype="text/plain">
           </form> -->
-
-
           <!-- <form action="https://formsubmit.co/tdmitchell1969@gmail.com" method="POST">
           </form>
 
@@ -458,10 +472,10 @@
 
 
 
-          <lable class="form-element sr-only" for="name"></lable>
+          <lable class="form-element sr-only" for="name">Full name</lable>
           <input type="text" class="form-element " name="name" id="name" placeholder="Full name" required>
 
-          <lable class="form-element sr-only" for="lastName"></lable>
+          <lable class="form-element sr-only" for="email">Email Address</lable>
           <input type="email" class="form-element " name="email" id="email" placeholder="email" required>
 
           <lable class="form-element sr-only" for="lastName"></lable>
