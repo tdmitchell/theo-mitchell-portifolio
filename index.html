@@ -444,13 +444,14 @@
 
 
             <lable class="form-element sr-only" for="name">Full name</lable>
-            <input type="text" class="form-element" id="name" name="name" placeholder="Enter full name" required>
+            <input type="text" class="form-element" id="name" name="name" placeholder="Full name..." required>
 
             <lable class="form-element sr-only" for="email">Email Address</lable>
-            <input type="email" class="form-element" id="email" name="email" placeholder="Email Address" required>
+            <input type="email" class="form-element" id="email" name="email" placeholder="Email Address..." required>
 
-            <lable class="form-element sr-only" for="telephone">Phone</lable>
-            <input type="tel" class="form-element" id="telephone" name="telephone" placeholder="phone">
+            <lable class="form-element sr-only" for="phone">Phone</lable>
+            <input type="tel" class="form-element" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              placeholder="xxx-xxx-xxxx">
 
             <lable class="form-element sr-only" for="message">Message</lable>
             <textarea type="text" class="form-element" id="message" name="message" cols="30" rows="10"
