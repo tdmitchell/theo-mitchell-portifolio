@@ -57,10 +57,11 @@ body {
   .shadow {
     box-shadow: 5px 5px 5px $shadow;
   }
-
 }
 
-
+.project-image {
+  background-color: #ffffff;
+}
 
 
 
@@ -102,6 +103,14 @@ footer {
   .modal-content {
     background-color: $background-2;
     border: 1px solid #888888;
+
+    .disabled {
+      background-color: #888888;
+
+      &:hover{
+        background-color: #888888;
+      }
+    }
 
     /* The Close Button */
     .close {

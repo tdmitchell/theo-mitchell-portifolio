@@ -56,34 +56,41 @@
     <section class="introduction wrapper">
       <div class="wrapper text-container">
         <div class="text-details shadow background-2">
-          <h1>Hi, I'm Theo</h1>
-          <p>A Web Developer and Software Engineer Technician.</p>
-          <p>
-            Eager to learn and highly motivated. Graduated from Centennial College
-            with high honours and Juno College of Technology. My proven skills, knowledge, and
-            abilities in programming, debugging, and testing web or desktop-based application, makes me excellent asset
-            for your organization.
-          </p>
+          <h1 id="h1Text" class="center">Hi, I'm Theo Mitchell</h1>
+          <h3 id="h3Text" class="center">A Web Developer and Software Engineer Technician.</h3>
+          <h4 class="center">Motto: Programming to change the world!</h4>
+          <p id="pText" class="center">Please click in the photos below to know me a little better.</p>
         </div> <!-- /.text-details-->
 
         <div class="text-resume shadow center background-2">
-          <button class="download-resume shadow">Download CV</button>
-          <a href="#" class="button-like shadow">Contact Me</a>
+
+          <a href="./assets/resume/Resume_Theo_Mitchell.pdf" download>
+            <button class="download-resume shadow">Download
+              CV</button>
+          </a>
+          <a href="#contact" class="button-like shadow">Contact Me</a>
         </div> <!-- /.text-resume-->
       </div> <!-- /.text-container-->
 
       <div class="image-container center">
-        <img id="intro-photo" class="shadow" src="assets/images/1.jpg" alt="Small image of Theo Mitchell">
+        <img id="intro-photo" class="shadow" src="assets/images/personal/1.jpg" alt="Image of Theo Mitchell">
       </div> <!-- /.image-container-->
     </section> <!-- /.introduction -->
     <!-- End Introduction Area -->
     <aside>
-      <ul class="personal-images-container wrapper">
-        <li class="personal-image center"><img src="./assets/images/projects/beachstays.png" alt=""></li>
-        <li class="personal-image center"><img src="./assets/images/projects/beachstays.png" alt=""></li>
-        <li class="personal-image center"><img src="./assets/images/projects/beachstays.png" alt=""></li>
-        <li class="personal-image center"><img src="./assets/images/projects/beachstays.png" alt=""></li>
-        <li class="personal-image center"><img src="./assets/images/projects/beachstays.png" alt=""></li>
+      <ul class="personal-images-container wrapper center" id="intro-thumbnail-photos">
+        <li class="personal-image center">
+          <img src="./assets/images/personal/1.jpg" alt="Image of Theo Mitchell" id="thumbnail-image-1">
+        </li>
+        <li class="personal-image center">
+          <img src="./assets/images/personal/2.jpg" alt="Image of Theo Mitchell" id="thumbnail-image-2">
+        </li>
+        <li class="personal-image center">
+          <img src="./assets/images/personal/3.jpg" alt="Image of Theo Mitchell" id="thumbnail-image-3">
+        </li>
+        <li class="personal-image center">
+          <img src="./assets/images/personal/4.png" alt="Image of Theo Mitchell" id="thumbnail-image-4">
+        </li>
       </ul>
     </aside>
 
@@ -95,8 +102,109 @@
 
     <!-- Start Skills Area -->
     <section class="skills skills-container wrapper">
-      <h2 class="center h2">skills & tools</h2>
-      <ul class="technical-skills-list center">
+      <h2 class="center h2">skills set</h2>
+
+
+      <div class="a1">
+        <h3 class="skills-set-title center">Programming Languages:</h3>
+        <ul class="technical-skills-list center">
+          <li class="technical-skills-item">
+            <i class="devicon-css3-plain-wordmark colored"></i>
+          </li>
+          <li class="technical-skills-item">
+            <i class="devicon-html5-plain-wordmark colored"></i>
+          </li>
+          <li class="technical-skills-item">
+            <img src="./assets/images/logo/js.png" alt="JavaScript logo" class="js-skills-logo">
+          </li>
+          <li class="technical-skills-item">
+            <i class="devicon-jquery-plain-wordmark colored"></i>
+          </li>
+          <li class="technical-skills-item">
+            <i class="devicon-sass-original colored"></i>
+          </li>
+          <li class="technical-skills-item">
+            <i class="devicon-react-original-wordmark colored"></i>
+          </li>
+          <li class="technical-skills-item">
+            <i class="devicon-angularjs-plain colored"></i>
+          </li>
+          <li class="technical-skills-item">
+            <img src="./assets/images/logo/c-sharp.png" alt="c-sharp Logo" class="c-sharp">
+          </li>
+          <li class="technical-skills-item">
+            <img src="./assets/images/logo/NET_Core_Logo.svg.png" alt="Asp.Net Core Logo" class="asp-net-skills-logo">
+          </li>
+          <li class="technical-skills-item">
+            <i class="devicon-java-plain-wordmark colored"></i>
+          </li>
+          <li class="technical-skills-item">
+            <i class="devicon-firebase-plain-wordmark colored"></i>
+          </li>
+          <li class="technical-skills-item">
+            <i class="devicon-mysql-plain-wordmark colored scale-up"></i>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="a2">
+        <div class="a3">
+          <h3 class="skills-set-title center">Version Control System:</h3>
+          <ul class="technical-skills-list center">
+            <li class="technical-skills-item">
+              <i class="devicon-git-plain-wordmark colored scale-up"></i>
+            </li>
+            <li class="technical-skills-item">
+              <i class="devicon-github-original-wordmark colored"></i>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="a4">
+          <h3 class="skills-set-title center">Platforms:</h3>
+          <ul class="technical-skills-list center">
+            <li class="technical-skills-item">
+              <i class="devicon-vscode-plain-wordmark colored"></i>
+            </li>
+            <li class="technical-skills-item">
+              <img src="./assets/images/logo/visual-studio.png" alt="Visual Studio Logo" class="skills-logo">
+            </li>
+            <li class="technical-skills-item">
+              <img src="./assets/images/logo/eclipse.png" alt="Visual Studio Logo" class="eclipse-skills-logo">
+            </li>
+            <li class="technical-skills-item">
+              <img src="./assets/images/logo/oracle-sql-developer.png" alt="Visual Studio Logo"
+                class="node-skills-logo">
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="a5">
+        <h3 class="skills-set-title center">Others:</h3>
+        <ul class="technical-skills-list center">
+          <li class="technical-skills-item">
+            <img src="./assets/images/logo/Responsive.png" alt="Visual Studio Logo" class="responsive-skills-logo">
+          </li>
+          <li class="technical-skills-item">
+            <img src="./assets/images/logo/Node.js_logo.svg" alt="Node-js Logo" class="node-skills-logo">
+          </li>
+          <li class="technical-skills-item">
+            <img src="./assets/images/logo/API 1.png" alt="RESTfull API Logo" class="API-skills-logo">
+          </li>
+          <li class="technical-skills-item">
+            <img src="./assets/images/logo/API 2.png" alt="RESTfull API Logo" class="API-skills-logo">
+          </li>
+          <li class="technical-skills-item">
+            <img src="./assets/images/logo/API 3.png" alt="RESTfull API Logo" class="API-skills-logo">
+          </li>
+        </ul>
+      </div>
+
+      <!-- <ul class="technical-skills-list center">
         <li class="technical-skills-item">
           <i class="devicon-react-original-wordmark colored"></i>
         </li>
@@ -107,13 +215,13 @@
           <i class="devicon-html5-plain-wordmark colored"></i>
         </li>
         <li class="technical-skills-item">
-          <i class="devicon-git-plain-wordmark colored"></i>
+          <img src="./assets/images/logo/js.png" alt="JavaScript logo" class="js-skills-logo">
+        </li>
+        <li class="technical-skills-item">
+          <i class="devicon-git-plain-wordmark colored scale-up"></i>
         </li>
         <li class="technical-skills-item">
           <i class="devicon-github-original-wordmark colored"></i>
-        </li>
-        <li class="technical-skills-item">
-          <i class="devicon-javascript-plain colored"></i>
         </li>
         <li class="technical-skills-item">
           <i class="devicon-sass-original colored"></i>
@@ -122,7 +230,7 @@
           <i class="devicon-vscode-plain-wordmark colored"></i>
         </li>
         <li class="technical-skills-item">
-          <i class="devicon-visualstudio-plain-wordmark colored"></i>
+          <img src="./assets/images/logo/visual-studio.png" alt="Visual Studio Logo" class="skills-logo">
         </li>
         <li class="technical-skills-item">
           <i class="devicon-angularjs-plain colored"></i>
@@ -134,15 +242,28 @@
           <i class="devicon-java-plain-wordmark colored"></i>
         </li>
         <li class="technical-skills-item">
-          <i class="devicon-mysql-plain-wordmark colored"></i>
+          <i class="devicon-mysql-plain-wordmark colored scale-up"></i>
         </li>
         <li class="technical-skills-item">
           <i class="devicon-jquery-plain-wordmark colored"></i>
         </li>
         <li class="technical-skills-item">
-          <i class="devicon-jquery-plain-wordmark colored"></i>
+          <img src="./assets/images/logo/Node.js_logo.svg" alt="Visual Studio Logo" class="node-skills-logo">
+        </li>
+        <li class="technical-skills-item">
+          <img src="./assets/images/logo/Node.js_logo.svg" alt="Visual Studio Logo" class="node-skills-logo">
+        </li>
+        <li class="technical-skills-item">
+          <img src="./assets/images/logo/Node.js_logo.svg" alt="Visual Studio Logo" class="node-skills-logo">
+        </li>
+        <li class="technical-skills-item">
+          <img src="./assets/images/logo/Node.js_logo.svg" alt="Visual Studio Logo" class="node-skills-logo">
         </li>
       </ul>
+ -->
+
+
+
     </section> <!-- /.skills-container -->
     <!-- End Skills Area -->
 
@@ -166,8 +287,7 @@
         <article class="project shadow background-2" id="project-1">
           <!-- Trigger/Open The Modal -->
           <div class="project-image-container ">
-            <img class="project-image shadow"
-              src="assets/images/coming soon/2Opening soon coming soon - Made with PosterMyWall.jpg"
+            <img class="project-image shadow" src="assets/images/coming soon/Coming soon - Made with PosterMyWall.jpg"
               alt="Project 1 - Coming Soon">
           </div> <!-- /.project-image-container -->
 
@@ -179,14 +299,14 @@
               This project will be released on May 5, 2022.
               <br>
             </h4>
-            <button id="project-1-btn" class="project-details center">Project details</button>
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
+
 
         <article class="project shadow background-2" id="project-2">
           <!-- Trigger/Open The Modal -->
           <div class="project-image-container ">
-            <img class="project-image shadow" src="assets/images/projects/movie-trivia.png"
+            <img class="project-image shadow" src="assets/images/projects/mockuper (Project 2).png"
               alt="Project 2 initial page in different devices.">
           </div> <!-- /.project-image-container -->
 
@@ -201,10 +321,11 @@
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
 
+
         <article class="project shadow background-2" id="project-3">
           <!-- Trigger/Open The Modal -->
           <div class="project-image-container ">
-            <img class="project-image shadow" src="assets/images/projects/beachstays.png"
+            <img class="project-image shadow" src="assets/images/projects/mockuper (project 1).png"
               alt="Project 3 initial page in different devices.">
           </div> <!-- /.project-image-container -->
 
@@ -220,10 +341,11 @@
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
 
+
         <article class="project shadow background-2" id="project-4">
           <!-- Trigger/Open The Modal -->
           <div class="project-image-container ">
-            <img class="project-image shadow" src="assets/images/projects/assignment 1.png"
+            <img class="project-image shadow" src="assets/images/projects/mockuper (assignment 1).png"
               alt="Project 4 initial page in different devices.">
           </div> <!-- /.project-image-container -->
 
@@ -238,138 +360,145 @@
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
 
+
       </div> <!-- /.projects-container -->
+
+      <!-- Modal Implementation for Project Detail -->
+      <div class="wrapper">
+        <!-- The Modal for Project 1-->
+        <div id="my-modal-project-1" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close" id="close-1"><i class="fa-solid fa-circle-xmark"></i></span>
+            <br><br><br>
+            <div class="modal-image-container center wrapper">
+              <img src="assets/images/coming soon/Coming soon - Made with PosterMyWall.jpg" alt="XXX"
+                class="project-detail-photo">
+            </div> <!-- /.modal-image-container-->
+
+            <div class="project-1-details wrapper">
+              <p><span>Technology:</span> HTML | Sass | React | Firebase | API | Git | GitHub | Pair Programming</p>
+              <p class=""><span>Year:</span> 2021</p>
+              <h2 class=""></h2>
+              <p><span>Project description:</span>
+                Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facerpossim assum.
+                Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
+                Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
+                processus dynamicus, qui
+                sequitur mutationem consuetudium lectorum.</p>
+
+              <div class="live-code center">
+                <a href="" class="button-like">Live site</a>
+                <a href="" class="button-like">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!-- End Modal content -->
+        </div> <!-- /#my-modal-project-1 -->
+
+
+        <!-- The Modal for Project 2-->
+        <div id="my-modal-project-2" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close" id="close-2"><i class="fa-solid fa-circle-xmark"></i></span>
+            <br><br><br>
+            <div class="modal-image-container center wrapper">
+              <img src="./assets/images/projects/mockuper (Project 2).png" alt="XXX" class="project-detail-photo">
+            </div> <!-- /.modal-image-container-->
+
+            <div class="project-2-details wrapper">
+              <p><span>Technology:</span> HTML | Sass | JavaScript | API | Git | GitHub | Pair Programming</p>
+              <p class=""><span>Year:</span> 2022</p>
+              <h2 class=""></h2>
+              <h4 class="title"><span>Project description:</span>
+              </h4>
+              <p>This fun fully implemented game aims to check your knowledge about the release dates of various movies.
+                It was developed in pairs and is a multi-page responsive web application with complex logic that allows
+                the
+                user enters his name, retrieve and displays movie and poster information from an API, defines randomly
+                plus 4 options for the answers, allows the user to choose an option, compare the answer and show if the
+                user
+                get it right, giving them one point for each correct answer.
+              </p>
+              <div class="live-code center">
+                <a href="" class="button-like">Live site</a>
+                <a href="" class="button-like">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!-- End Modal content -->
+        </div> <!-- /#my-modal-project-2 -->
+
+
+        <!-- The Modal for Project 3-->
+        <div id="my-modal-project-3" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close" id="close-3"><i class="fa-solid fa-circle-xmark"></i></span>
+            <br><br><br>
+            <div class="modal-image-container center wrapper">
+              <img src="./assets/images/projects/mockuper (project 1).png" alt="XXX" class="project-detail-photo">
+            </div> <!-- /.modal-image-container-->
+
+            <div class="project-3-details wrapper">
+              <p><span>Technology:</span> HTML | Sass | JavaScript </p>
+              <p class=""><span>Year:</span> 2022</p>
+              <h2 class=""></h2>
+              <h4 class="title">
+                <span>Project description:</span>
+              </h4>
+              <p class=""> This responsive multi-page web application is designed to represent a travel agency website
+                to
+                share
+                information
+                about Guyana
+                beaches. The blog page shows some information from a location and comments from previous users, with a
+                submitting form
+                for new comments (not implemented). It also has a functional contact page that allows the user to send a
+                message and see
+                if it has been successfully sent.</p>
+              <div class="live-code center">
+                <a href="" class="button-like">Live site</a>
+                <a href="" class="button-like">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!-- End Modal content -->
+        </div> <!-- /#my-modal-project-3 -->
+
+
+        <!-- The Modal for Project 4-->
+        <div id="my-modal-project-4" class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close" id="close-4"><i class="fa-solid fa-circle-xmark"></i></span>
+            <br><br><br>
+            <div class="modal-image-container center wrapper">
+              <img src="./assets/images/projects/mockuper (assignment 1).png" alt="XXX" class="project-detail-photo">
+            </div> <!-- /.modal-image-container-->
+
+            <div class="project-4-details wrapper">
+              <p><span>Technology:</span> HTML | SCSS | Git | GitHub</p>
+              <p class=""><span>Year:</span> 2022</p>
+              <h2 class=""></h2>
+              <h4 class="title">
+                <span>Project description:</span>
+              </h4>
+              <p class="">This responsive single-page website was designed to emulate a mocking-up piece of a website
+                design. It was solo
+                developed to solidify my knowledge in HTML and CSS.</p>
+              <div class="live-code center">
+                <a href="" class="button-like">Live site</a>
+                <a href="" class="button-like">GitHub</a>
+              </div>
+            </div>
+          </div>
+          <!-- End Modal content -->
+        </div> <!-- /#my-modal-project-4 -->
+
+      </div> <!-- End Modal Implementation Area -->
     </section> <!-- /.portfolio -->
-
-    <!-- Modal Implementation for Project Detail -->
-    <div class="wrapper">
-      <!-- The Modal for Project 1-->
-      <div id="my-modal-project-1" class="modal">
-        <!-- Modal content -->
-        <div class="modal-content">
-          <span class="close" id="close-1"><i class="fa-solid fa-circle-xmark"></i></span>
-          <br><br><br>
-          <div class="modal-image-container center wrapper">
-            <img src="./assets/images/projects/beachstays.png" alt="XXX" class="project-detail-photo">
-          </div> <!-- /.modal-image-container-->
-
-          <div class="project-1-details">
-            <p><span>Technology:</span> HTML | Sass | React | Firebase | API | Git | GitHub | Pair Programming</p>
-            <p class=""><span>Year:</span> 2021</p>
-            <h2 class=""></h2>
-            <p><span>Project description:</span>
-              Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facerpossim assum.
-              Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
-              Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
-              processus dynamicus, qui
-              sequitur mutationem consuetudium lectorum.</p>
-
-            <div class="live-code">
-              <a href="">Live site</a>
-              <a href="">GitHub</a>
-            </div>
-          </div>
-        </div>
-        <!-- End Modal content -->
-      </div> <!-- /#my-modal-project-1 -->
-
-      <!-- The Modal for Project 2-->
-      <div id="my-modal-project-2" class="modal">
-        <!-- Modal content -->
-        <div class="modal-content">
-          <span class="close" id="close-2"><i class="fa-solid fa-circle-xmark"></i></span>
-          <br><br><br>
-          <div class="modal-image-container center wrapper">
-            <img src="./assets/images/projects/beachstays.png" alt="XXX" class="project-detail-photo">
-          </div> <!-- /.modal-image-container-->
-
-          <div class="project-2-details">
-            <p><span>Technology:</span> HTML | Sass | JavaScript | API | Git | GitHub | Pair Programming</p>
-            <p class=""><span>Year:</span> 2022</p>
-            <h2 class=""></h2>
-            <h4 class="title"><span>Project description:</span>
-            </h4>
-            <p>This fun fully implemented game aims to check your knowledge about the release dates of various movies.
-              It was developed in pairs and is a multi-page responsive web application with complex logic that allows
-              the
-              user enters his name, retrieve and displays movie and poster information from an API, defines randomly
-              plus 4 options for the answers, allows the user to choose an option, compare the answer and show if the
-              user
-              get it right, giving them one point for each correct answer.
-            </p>
-            <div class="live-code">
-              <a href="">Live site</a>
-              <a href="">GitHub</a>
-            </div>
-          </div>
-        </div>
-        <!-- End Modal content -->
-      </div> <!-- /#my-modal-project-2 -->
-
-      <!-- The Modal for Project 3-->
-      <div id="my-modal-project-3" class="modal">
-        <!-- Modal content -->
-        <div class="modal-content">
-          <span class="close" id="close-3"><i class="fa-solid fa-circle-xmark"></i></span>
-          <br><br><br>
-          <div class="modal-image-container center wrapper">
-            <img src="./assets/images/projects/beachstays.png" alt="XXX" class="project-detail-photo">
-          </div> <!-- /.modal-image-container-->
-
-          <div class="project-3-details">
-            <p><span>Technology:</span> HTML | Sass | JavaScript </p>
-            <p class=""><span>Year:</span> 2022</p>
-            <h2 class=""></h2>
-            <h4 class="title">
-              <span>Project description:</span>
-            </h4>
-            <p class=""> This responsive multi-page web application is designed to represent a travel agency website to
-              share
-              information
-              about Guyana
-              beaches. The blog page shows some information from a location and comments from previous users, with a
-              submitting form
-              for new comments (not implemented). It also has a functional contact page that allows the user to send a
-              message and see
-              if it has been successfully sent.</p>
-            <div class="live-code">
-              <a href="">Live site</a>
-              <a href="">GitHub</a>
-            </div>
-          </div>
-        </div>
-        <!-- End Modal content -->
-      </div> <!-- /#my-modal-project-3 -->
-
-      <!-- The Modal for Project 4-->
-      <div id="my-modal-project-4" class="modal">
-        <!-- Modal content -->
-        <div class="modal-content">
-          <span class="close" id="close-4"><i class="fa-solid fa-circle-xmark"></i></span>
-          <br><br><br>
-          <div class="modal-image-container center wrapper">
-            <img src="./assets/images/projects/beachstays.png" alt="XXX" class="project-detail-photo">
-          </div> <!-- /.modal-image-container-->
-
-          <div class="project-4-details">
-            <p><span>Technology:</span> HTML | SCSS | Git | GitHub</p>
-            <p class=""><span>Year:</span> 2022</p>
-            <h2 class=""></h2>
-            <h4 class="title">
-              <span>Project description:</span>
-            </h4>
-            <p class="">This responsive single-page website was designed to emulate a mocking-up piece of a website
-              design. It was solo
-              developed to solidify my knowledge in HTML and CSS.</p>
-            <div class="live-code">
-              <a href="">Live site</a>
-              <a href="">GitHub</a>
-            </div> <!-- /.live-code -->
-          </div> <!-- /.project-4-details -->
-        </div> <!-- /.modal-content -->
-        <!-- End Modal content -->
-      </div> <!-- /#my-modal-project-4 -->
-    </div> <!-- End Modal Implementation Area -->
     <!-- End portfolio Area -->
 
 
@@ -441,8 +570,6 @@
             <input type="hidden" name="_autoresponse"
               value="Thank you for reaching out. I will contact you soon. Regards, Theo Mitchell">
 
-
-
             <lable class="form-element sr-only" for="name">Full name</lable>
             <input type="text" class="form-element" id="name" name="name" placeholder="Full name..." required>
 
@@ -461,33 +588,6 @@
           </form>
 
 
-          <!-- <form action="mailto:tdmitchell1969@gmail.com" method="POST" enctype="text/plain"> -->
-          <!-- <form action="https://getform.io/f/c3920822-da48-4ddc-a0fe-9bc6beb01e40" method="POST" enctype="text/plain">
-          </form> -->
-          <!-- <form action="https://formsubmit.co/tdmitchell1969@gmail.com" method="POST">
-          </form>
-
-          <input type="hidden" name="_subject" value="New contact from protfolio!">
-          <input type="hidden" name="_autoresponse"
-            value="Thank you for reaching out. I will contact you soon. Regards, Theo Mitchell">
-
-
-
-          <lable class="form-element sr-only" for="name">Full name</lable>
-          <input type="text" class="form-element " name="name" id="name" placeholder="Full name" required>
-
-          <lable class="form-element sr-only" for="email">Email Address</lable>
-          <input type="email" class="form-element " name="email" id="email" placeholder="email" required>
-
-          <lable class="form-element sr-only" for="lastName"></lable>
-          <input type="tel" class="form-element" name="telephone" id="telephone" placeholder="phone">
-
-          <lable class="form-element sr-only" for="lastName"></lable>
-          <textarea type="text" class="form-element " name="message" id="message" cols="30" rows="10"
-            placeholder="Leave your message here..." required></textarea>
-
-          <button type="submit" class="submit-form center">Send message1</button>
-          </form> -->
         </article>
       </div> <!-- /.contact-section -->
 
@@ -502,7 +602,7 @@
   </footer>
 
 
-
+  <script src="./scripts/introduction.js"></script>
   <script src="./scripts/portifolio.js"></script>
 </body>
 

@@ -48,7 +48,24 @@
   .modal-content {
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    width: 80%; /* Could be more or less, depending on screen size */    
+    width: 60%; /* Could be more or less, depending on screen size */    
+
+    .project-1-details,
+    .project-2-details,
+    .project-3-details,
+    .project-4-details {
+      flex-direction: column;
+
+      span {
+        font-weight: bold;
+      }
+
+      .live-code {
+        display: flex;
+        flex-direction:  row;
+
+      }
+    }
   }
 }
 

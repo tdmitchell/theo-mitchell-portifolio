@@ -99,6 +99,10 @@ body .shadow {
           box-shadow: 5px 5px 5px #dec761;
 }
 
+.project-image {
+  background-color: #ffffff;
+}
+
 .separation .line {
   border-bottom: 2px solid #dec761;
 }
@@ -128,6 +132,12 @@ footer {
   border: 1px solid #888888;
   /* The Close Button */
 }
+.modal .modal-content .disabled {
+  background-color: #888888;
+}
+.modal .modal-content .disabled:hover {
+  background-color: #888888;
+}
 .modal .modal-content .close {
   color: #00ff73;
 }
@@ -144,6 +154,10 @@ footer {
 
 i {
   font-size: 50px;
+}
+
+.scale-up {
+  font-size: 70px;
 }
 
 body {
@@ -167,19 +181,17 @@ body img {
           justify-content: flex-end;
 }
 
+#intro-thumbnail-photos {
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
 .project-image-container .project-image {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-#intro-photo {
-  width: 90%;
-  margin: 20px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 .personal-images-container {
@@ -201,16 +213,39 @@ body img {
 }
 .personal-images-container .personal-image img {
   width: 100%;
-  height: 100px;
+  height: 110px;
   padding: 0;
 }
 
 .project-detail-photo {
-  width: 90%;
+  width: 50%;
   margin: 20px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+.skills-logo {
+  height: 70px;
+}
+
+.js-skills-logo,
+.eclipse-skills-logo,
+.node-skills-logo,
+.asp-net-skills-logo {
+  height: 52px;
+}
+
+.API-skills-logo {
+  height: 60px;
+}
+
+.responsive-skills-logo {
+  height: 60px;
+}
+
+.c-sharp {
+  height: 52px;
 }
 
 nav.wrapper {
@@ -282,7 +317,19 @@ nav.wrapper {
 .text-details {
   width: 100%;
   margin: 15px;
-  padding: 30px;
+  padding: 20px;
+}
+.text-details h1 {
+  margin-bottom: 20px;
+}
+.text-details h3 {
+  margin-bottom: 20px;
+}
+.text-details p {
+  margin-bottom: 20px;
+}
+.text-details h4 {
+  margin-bottom: 20px;
 }
 
 .text-resume {
@@ -323,10 +370,6 @@ nav.wrapper {
 .button-like,
 .download-resume {
   margin: 20px;
-}
-
-.submit-form {
-  margin: 0px;
 }
 
 .project-details {
@@ -370,6 +413,28 @@ li {
   -ms-flex-preferred-size: 16%;
       flex-basis: 16%;
   padding: 10px;
+}
+
+.a1 {
+  margin-bottom: 40px;
+}
+
+.a2 {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.a3 {
+  width: 40%;
+}
+
+.a4 {
+  width: 55%;
 }
 
 .projects-container {
@@ -420,8 +485,35 @@ li {
   margin: 15% auto;
   /* 15% from the top and centered */
   padding: 20px;
-  width: 80%;
+  width: 60%;
   /* Could be more or less, depending on screen size */
+}
+.modal .modal-content .project-1-details,
+.modal .modal-content .project-2-details,
+.modal .modal-content .project-3-details,
+.modal .modal-content .project-4-details {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.modal .modal-content .project-1-details span,
+.modal .modal-content .project-2-details span,
+.modal .modal-content .project-3-details span,
+.modal .modal-content .project-4-details span {
+  font-weight: bold;
+}
+.modal .modal-content .project-1-details .live-code,
+.modal .modal-content .project-2-details .live-code,
+.modal .modal-content .project-3-details .live-code,
+.modal .modal-content .project-4-details .live-code {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .contact-title,
