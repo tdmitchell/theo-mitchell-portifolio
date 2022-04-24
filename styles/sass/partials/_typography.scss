@@ -1,3 +1,7 @@
+body {
+  letter-spacing: 1.5px;
+}
+
 .h2 {
   display: block;
   width: 80%;
@@ -5,8 +9,19 @@
   text-transform: uppercase;
 }
 
+
 i {
   font-size: 50px;
+}
+
+#aLink,
+#h4Text {
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .scale-up {

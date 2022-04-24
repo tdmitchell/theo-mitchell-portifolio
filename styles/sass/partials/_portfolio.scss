@@ -17,7 +17,7 @@
 
     .project-text-container {
       width: 100%;
-      margin-top: 5px;
+      margin-top: 15px;
       padding: 0 20px 20px 20px;
 
       .title {
@@ -54,16 +54,21 @@
     .project-2-details,
     .project-3-details,
     .project-4-details {
-      flex-direction: column;
+      flex-direction: column;      
 
       span {
         font-weight: bold;
+        // margin-bottom: 15px;
       }
 
       .live-code {
         display: flex;
         flex-direction:  row;
 
+      }
+
+      p {
+        margin-bottom: 15px;
       }
     }
   }

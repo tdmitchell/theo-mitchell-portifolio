@@ -4,13 +4,20 @@
 // $text: #C7CEDE;
 // $secundary: #dec761;
 
-$background: #ffffff;
-$background-2: #f1f3e7;
-$shadow: #dec761;
-$text: #222428;
-$greetings: #2a61ce;
-$secundary: #dec761;
-$buttonHover: #2727d8;
+$background: #efcbab;
+$background-2: #fcd7be;
+$background-3: #74492d;
+$shadow: #c95740;
+$text1: #2d1c07;
+$text2: #f1e0cb;
+$text3: #0356fe;
+$secundary: #2b2118;
+$buttonHover: #f0a46d;
+// $buttonTextHover#
+
+
+//7d98a1
+//424651
 
 
 
@@ -20,18 +27,26 @@ $buttonHover: #2727d8;
 
 body {
   background-color: $background;
-  color: $text;
+  color: $text1;
 
   header {
-    background-color: $background-2;
+    background-color: $background-3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  footer {
+    color: $text2;
+    background-color: $background-3;
   }
   
   h1 {
-    color: $greetings;
+    color: $text3;
   }
-  
+
   .h2 {
-    color: $text;
+    color: $text1;
   }
   
   .background-2 {
@@ -42,25 +57,36 @@ body {
   .download-resume,
   .submit-form,
   .project-details {
-    background-color: $text;
-    color: $background;
+    background-color: $text1;
+    color: $text2;
 
     &:hover {
-      background-color: rgb(39, 39, 216);    
+      background-color: $buttonHover;
+      color: $text1;
     }
   }
   
   a {
-    color: $text;
+    color: $text2;
+
+    &:hover {
+      color: $text3;
+    }
+  }
+
+  #aLink {
+    color: $text2;
+  
+    &:hover {
+      background-color: $buttonHover;
+      color: $text1;
+    }
+  
   }
   
   .shadow {
     box-shadow: 5px 5px 5px $shadow;
   }
-}
-
-.project-image {
-  background-color: #ffffff;
 }
 
 
@@ -69,20 +95,29 @@ body {
 // Horizontal Line
 .separation {
   .line {
-    border-bottom: 2px solid $secundary;
+    border-bottom: 2px solid $text1;
   }
 }
+
+
+
+
 
 .project {
   background-color: $background-2;
 }
+.project-image {
+  background-color: #ffffff;
+}
+
+
 
 
 
 .contact-section {
   .contact-info,
   .contact-info-1 {
-    color: $secundary;
+    color: $text1;
   }
 
   .form-container {
@@ -90,10 +125,6 @@ body {
   }
 }
 
-
-footer {
-  background-color: $background-2;
-}
 
 //Modal for Project
 .modal {
@@ -114,7 +145,7 @@ footer {
 
     /* The Close Button */
     .close {
-      color: #00ff73;
+      color: #2d1c07;
 
       &:hover,
       &:focus {

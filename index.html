@@ -25,8 +25,8 @@
 
       <div class="header-right">
         <ul>
-          <li class="nav-item">
-            <a href="#introduction" class="nav-link">Home</a>
+          <li class="nav-item ">
+            <a href="#introduction-start" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="#skills" class="nav-link">Skills</a>
@@ -51,20 +51,21 @@
   <!-- End Header Area -->
 
   <!-- Start Main Area -->
-  <main>
+  <main id="introduction-start">
     <!-- Start Introduction Area -->
     <section class="introduction wrapper">
       <div class="wrapper text-container">
-        <div class="text-details shadow background-2">
+        <div class="text-details shadow background-2 center">
           <h1 id="h1Text" class="center">Hi, I'm Theo Mitchell</h1>
           <h3 id="h3Text" class="center">A Web Developer and Software Engineer Technician.</h3>
-          <h4 class="center">Motto: Programming to change the world!</h4>
-          <p id="pText" class="center">Please click in the photos below to know me a little better.</p>
+          <a target="_blank" rel="noopener noreferrer" href="" id="aLink" class="center"></a>
+          <h4 class="center" id="h4Text">Motto: Programming to change the world!</h4>
+          <p id="pText" class="center italic">Please click in the photos below to know me a little better.</p>
         </div> <!-- /.text-details-->
 
         <div class="text-resume shadow center background-2">
 
-          <a href="./assets/resume/Resume_Theo_Mitchell.pdf" download>
+          <a href="./assets/resume/Resume_Theo_Mitchell.pdf" download target="_blank" rel="noopener noreferrer">
             <button class="download-resume shadow">Download
               CV</button>
           </a>
@@ -80,16 +81,20 @@
     <aside>
       <ul class="personal-images-container wrapper center" id="intro-thumbnail-photos">
         <li class="personal-image center">
-          <img src="./assets/images/personal/1.jpg" alt="Image of Theo Mitchell" id="thumbnail-image-1">
+          <img src="./assets/images/personal/2.JPEG" alt="Image of Theo Mitchell" id="thumbnail-image-2"
+            class="thumbnail shadow">
         </li>
         <li class="personal-image center">
-          <img src="./assets/images/personal/2.jpg" alt="Image of Theo Mitchell" id="thumbnail-image-2">
+          <img src="./assets/images/personal/3.jpg" alt="Image of Theo Mitchell" id="thumbnail-image-3"
+            class="thumbnail shadow">
         </li>
         <li class="personal-image center">
-          <img src="./assets/images/personal/3.jpg" alt="Image of Theo Mitchell" id="thumbnail-image-3">
+          <img src="./assets/images/personal/5.jpg" alt="Image of Theo Mitchell" id="thumbnail-image-5"
+            class="thumbnail shadow">
         </li>
         <li class="personal-image center">
-          <img src="./assets/images/personal/4.png" alt="Image of Theo Mitchell" id="thumbnail-image-4">
+          <img src="./assets/images/personal/4.jpg" alt="Image of Theo Mitchell" id="thumbnail-image-4"
+            class="thumbnail shadow">
         </li>
       </ul>
     </aside>
@@ -106,7 +111,7 @@
 
 
       <div class="a1">
-        <h3 class="skills-set-title center">Programming Languages:</h3>
+        <h3 class="skills-set-title center" id="programming-language">Programming Languages:</h3>
         <ul class="technical-skills-list center">
           <li class="technical-skills-item">
             <i class="devicon-css3-plain-wordmark colored"></i>
@@ -163,45 +168,45 @@
 
 
         <div class="a4">
-          <h3 class="skills-set-title center">Platforms:</h3>
+          <h3 class="skills-set-title center" id="others">Others:</h3>
           <ul class="technical-skills-list center">
             <li class="technical-skills-item">
-              <i class="devicon-vscode-plain-wordmark colored"></i>
+              <img src="./assets/images/logo/Responsive.png" alt="Visual Studio Logo" class="responsive-skills-logo">
             </li>
             <li class="technical-skills-item">
-              <img src="./assets/images/logo/visual-studio.png" alt="Visual Studio Logo" class="skills-logo">
+              <img src="./assets/images/logo/Node.js_logo.svg" alt="Node-js Logo" class="node-skills-logo">
             </li>
             <li class="technical-skills-item">
-              <img src="./assets/images/logo/eclipse.png" alt="Visual Studio Logo" class="eclipse-skills-logo">
+              <img src="./assets/images/logo/API 1.png" alt="RESTfull API Logo" class="API-skills-logo">
             </li>
-            <li class="technical-skills-item">
-              <img src="./assets/images/logo/oracle-sql-developer.png" alt="Visual Studio Logo"
-                class="node-skills-logo">
-            </li>
+            <!-- <li class="technical-skills-item">
+                              <img src="./assets/images/logo/API 2.png" alt="RESTfull API Logo" class="API-skills-logo">
+                            </li>
+                            <li class="technical-skills-item">
+                              <img src="./assets/images/logo/API 3.png" alt="RESTfull API Logo" class="API-skills-logo">
+                            </li> -->
           </ul>
         </div>
       </div>
 
 
       <div class="a5">
-        <h3 class="skills-set-title center">Others:</h3>
+        <h3 class="skills-set-title center">Platforms:</h3>
         <ul class="technical-skills-list center">
           <li class="technical-skills-item">
-            <img src="./assets/images/logo/Responsive.png" alt="Visual Studio Logo" class="responsive-skills-logo">
+            <i class="devicon-vscode-plain-wordmark colored"></i>
           </li>
           <li class="technical-skills-item">
-            <img src="./assets/images/logo/Node.js_logo.svg" alt="Node-js Logo" class="node-skills-logo">
+            <img src="./assets/images/logo/visual-studio.png" alt="Visual Studio Logo" class="skills-logo">
           </li>
           <li class="technical-skills-item">
-            <img src="./assets/images/logo/API 1.png" alt="RESTfull API Logo" class="API-skills-logo">
+            <img src="./assets/images/logo/eclipse.png" alt="Visual Studio Logo" class="eclipse-skills-logo">
           </li>
           <li class="technical-skills-item">
-            <img src="./assets/images/logo/API 2.png" alt="RESTfull API Logo" class="API-skills-logo">
-          </li>
-          <li class="technical-skills-item">
-            <img src="./assets/images/logo/API 3.png" alt="RESTfull API Logo" class="API-skills-logo">
+            <img src="./assets/images/logo/oracle-sql-developer.png" alt="Visual Studio Logo" class="node-skills-logo">
           </li>
         </ul>
+
       </div>
 
       <!-- <ul class="technical-skills-list center">
@@ -287,16 +292,16 @@
         <article class="project shadow background-2" id="project-1">
           <!-- Trigger/Open The Modal -->
           <div class="project-image-container ">
-            <img class="project-image shadow" src="assets/images/coming soon/Coming soon - Made with PosterMyWall.jpg"
-              alt="Project 1 - Coming Soon">
+            <img class="project-image background-2"
+              src="assets/images/coming soon/Coming soon - Made with PosterMyWall.jpg" alt="Project 1 - Coming Soon">
           </div> <!-- /.project-image-container -->
 
           <div class="project-text-container">
-            <div class="category-list">
+            <div class="category-list center">
               <p>HTML | Sass | React | Firebase | API | Git | GitHub | Pair Programming</p>
             </div>
             <h4 class="title">
-              This project will be released on May 5, 2022.
+              This group project will be released on May 5, 2022.
               <br>
             </h4>
           </div> <!-- /.project-text-container -->
@@ -306,12 +311,12 @@
         <article class="project shadow background-2" id="project-2">
           <!-- Trigger/Open The Modal -->
           <div class="project-image-container ">
-            <img class="project-image shadow" src="assets/images/projects/mockuper (Project 2).png"
+            <img class="project-image background-2" src="assets/images/projects/mockuper (Project 2).png"
               alt="Project 2 initial page in different devices.">
           </div> <!-- /.project-image-container -->
 
           <div class="project-text-container">
-            <div class="category-list">
+            <div class="category-list center">
               <p>HTML | Sass | JavaScript | API | Git | GitHub | Pair Programming</p>
             </div>
             <h4 class="title">
@@ -325,16 +330,16 @@
         <article class="project shadow background-2" id="project-3">
           <!-- Trigger/Open The Modal -->
           <div class="project-image-container ">
-            <img class="project-image shadow" src="assets/images/projects/mockuper (project 1).png"
+            <img class="project-image background-2" src="assets/images/projects/mockuper (project 1).png"
               alt="Project 3 initial page in different devices.">
           </div> <!-- /.project-image-container -->
 
           <div class="project-text-container">
-            <div class="category-list">
+            <div class="category-list center">
               <p>HTML | Sass | JavaScript</p>
             </div>
             <h4 class="title">
-              A responsive multi-page web application for a travel agency website to share information
+              A responsive multi-page web application for a travel agency website to share info
               about Guyana beaches.
             </h4>
             <button id="project-3-btn" class="project-details center">Project details</button>
@@ -345,12 +350,12 @@
         <article class="project shadow background-2" id="project-4">
           <!-- Trigger/Open The Modal -->
           <div class="project-image-container ">
-            <img class="project-image shadow" src="assets/images/projects/mockuper (assignment 1).png"
+            <img class="project-image background-2" src="assets/images/projects/mockuper (assignment 1).png"
               alt="Project 4 initial page in different devices.">
           </div> <!-- /.project-image-container -->
 
           <div class="project-text-container">
-            <div class="category-list">
+            <div class="category-list center">
               <p>HTML | CSS</p>
             </div>
             <h4 class="title">
@@ -559,8 +564,10 @@
           </div>
 
           <div class="info-content-container social background-2 shadow">
-            <a href="https://github.com/tdmitchell"><i class="devicon-github-original"></i></a>
-            <a href="https://www.linkedin.com/in/theo-mitchell/"><i class="devicon-linkedin-plain colored"></i></a>
+            <a href="https://github.com/tdmitchell" target="_blank" rel="noopener noreferrer"><i
+                class="devicon-github-original-wordmark colored"></i></a>
+            <a href="https://www.linkedin.com/in/theo-mitchell/" target="_blank" rel="noopener noreferrer"><i
+                class="devicon-linkedin-plain colored"></i></a>
           </div>
         </article>
 

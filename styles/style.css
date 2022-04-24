@@ -63,64 +63,78 @@ a {
 }
 
 body {
-  background-color: #ffffff;
-  color: #222428;
+  background-color: #efcbab;
+  color: #2d1c07;
 }
 body header {
-  background-color: #f1f3e7;
+  background-color: #74492d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+body footer {
+  color: #f1e0cb;
+  background-color: #74492d;
 }
 body h1 {
-  color: #2a61ce;
+  color: #0356fe;
 }
 body .h2 {
-  color: #222428;
+  color: #2d1c07;
 }
 body .background-2 {
-  background-color: #f1f3e7;
+  background-color: #fcd7be;
 }
 body .button-like,
 body .download-resume,
 body .submit-form,
 body .project-details {
-  background-color: #222428;
-  color: #ffffff;
+  background-color: #2d1c07;
+  color: #f1e0cb;
 }
 body .button-like:hover,
 body .download-resume:hover,
 body .submit-form:hover,
 body .project-details:hover {
-  background-color: rgb(39, 39, 216);
+  background-color: #f0a46d;
+  color: #2d1c07;
 }
 body a {
-  color: #222428;
+  color: #f1e0cb;
+}
+body a:hover {
+  color: #0356fe;
+}
+body #aLink {
+  color: #f1e0cb;
+}
+body #aLink:hover {
+  background-color: #f0a46d;
+  color: #2d1c07;
 }
 body .shadow {
-  -webkit-box-shadow: 5px 5px 5px #dec761;
-          box-shadow: 5px 5px 5px #dec761;
+  -webkit-box-shadow: 5px 5px 5px #c95740;
+          box-shadow: 5px 5px 5px #c95740;
+}
+
+.separation .line {
+  border-bottom: 2px solid #2d1c07;
+}
+
+.project {
+  background-color: #fcd7be;
 }
 
 .project-image {
   background-color: #ffffff;
 }
 
-.separation .line {
-  border-bottom: 2px solid #dec761;
-}
-
-.project {
-  background-color: #f1f3e7;
-}
-
 .contact-section .contact-info,
 .contact-section .contact-info-1 {
-  color: #dec761;
+  color: #2d1c07;
 }
 .contact-section .form-container {
-  background-color: #f1f3e7;
-}
-
-footer {
-  background-color: #f1f3e7;
+  background-color: #fcd7be;
 }
 
 .modal {
@@ -128,7 +142,7 @@ footer {
   /* Black w/ opacity */
 }
 .modal .modal-content {
-  background-color: #f1f3e7;
+  background-color: #fcd7be;
   border: 1px solid #888888;
   /* The Close Button */
 }
@@ -139,10 +153,14 @@ footer {
   background-color: #888888;
 }
 .modal .modal-content .close {
-  color: #00ff73;
+  color: #2d1c07;
 }
 .modal .modal-content .close:hover, .modal .modal-content .close:focus {
   color: #ff0000;
+}
+
+body {
+  letter-spacing: 1.5px;
 }
 
 .h2 {
@@ -154,6 +172,16 @@ footer {
 
 i {
   font-size: 50px;
+}
+
+#aLink,
+#h4Text {
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .scale-up {
@@ -175,7 +203,7 @@ body img {
 
 #intro-photo {
   width: 90%;
-  margin: 20px;
+  margin-left: 20px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -185,6 +213,16 @@ body img {
   width: 80%;
   margin-top: 20px;
   border-radius: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#intro-thumbnail-photos .thumbnail:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .project-image-container .project-image {
@@ -259,6 +297,7 @@ nav.wrapper {
 
 .header-left {
   width: 10%;
+  margin: 10px auto 5px 0;
 }
 
 .header-right {
@@ -280,8 +319,13 @@ nav.wrapper {
   text-align: right;
 }
 
+#introduction-start {
+  padding-top: 70px;
+}
+
 .introduction {
   height: 65vh;
+  line-height: 1.4;
 }
 
 .text-container {
@@ -294,12 +338,13 @@ nav.wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 20px auto;
 }
 
 .image-container {
@@ -415,6 +460,11 @@ li {
   padding: 10px;
 }
 
+#programming-language,
+#others {
+  margin-bottom: 10px;
+}
+
 .a1 {
   margin-bottom: 40px;
 }
@@ -457,7 +507,7 @@ li {
 }
 .projects-container .project .project-text-container {
   width: 100%;
-  margin-top: 5px;
+  margin-top: 15px;
   padding: 0 20px 20px 20px;
 }
 .projects-container .project .project-text-container .title {
@@ -515,9 +565,16 @@ li {
       -ms-flex-direction: row;
           flex-direction: row;
 }
+.modal .modal-content .project-1-details p,
+.modal .modal-content .project-2-details p,
+.modal .modal-content .project-3-details p,
+.modal .modal-content .project-4-details p {
+  margin-bottom: 15px;
+}
 
 .contact-title,
-.portfolio-title {
+.portfolio-title,
+.h2 {
   margin-bottom: 10px;
 }
 
