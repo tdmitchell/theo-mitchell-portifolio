@@ -7,10 +7,12 @@
 $background: #efcbab;
 $background-2: #fcd7be;
 $background-3: #74492d;
-$shadow: #c95740;
+// $shadow: #c95740;
+$shadow: #9d9795;
 $text1: #2d1c07;
 $text2: #f1e0cb;
-$text3: #0356fe;
+// $text3: #e24040;
+$text3: #ff5100;
 $secundary: #2b2118;
 $buttonHover: #f0a46d;
 // $buttonTextHover#
@@ -31,7 +33,7 @@ body {
 
   header {
     background-color: $background-3;
-    position: fixed;
+    // position: fixed;
     top: 0;
     width: 100%;
   }
@@ -46,11 +48,12 @@ body {
   }
 
   .h2 {
-    color: $text1;
+    color: $text3;
   }
   
   .background-2 {
     background-color: $background-2;
+    border-radius: 15px;
   }
 
   .button-like,
@@ -75,11 +78,11 @@ body {
   }
 
   #aLink {
-    color: $text2;
+    color: $text1;
   
     &:hover {
       background-color: $buttonHover;
-      color: $text1;
+      color: $text2;
     }
   
   }
@@ -153,4 +156,14 @@ body {
       }
     }
   }
+}
+
+
+
+
+.a1, 
+.a3,
+.a4,
+.a5 {
+  background-color: $background-2;
 }

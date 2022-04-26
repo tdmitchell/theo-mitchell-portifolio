@@ -7,11 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Theo Mitchell's Portfolio</title>
 
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;600&display=swap" rel="stylesheet">
+
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+
+
+
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   <script src="https://kit.fontawesome.com/be06c70ad0.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles/style.css">
 </head>
-
 
 <body>
   <!-- Start Header Area -->
@@ -19,20 +32,24 @@
     <nav class="wrapper">
       <div class="header-left">
         <a href="index.html">
-          <img id="nav-photo" src="assets/images/logo/3-A.png" alt="Small image of Theo Mitchell">
+          <img id="nav-photo" src="assets/images/logo/Theo.jpeg" alt="Small image of Theo Mitchell">
         </a>
       </div> <!-- /.header-left -->
 
+      <div class="header-middle">
+        <h1>Theo Mitchell</h1>
+      </div>
+
       <div class="header-right">
         <ul>
-          <li class="nav-item ">
+          <!-- <li class="nav-item ">
             <a href="#introduction-start" class="nav-link">Home</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="#end-introduction" class="nav-link">Skills</a>
           </li>
           <li class="nav-item">
-            <a href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#end-skills" class="nav-link ">Portfolio</a>
           </li>
           <!-- <li class="nav-item">
             <a href="#resume" class="nav-link">Resume</a>
@@ -41,7 +58,7 @@
             <a href="#testimonial" class="nav-link">Testimonial</a>
           </li> -->
           <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#end-portfolio" class="nav-link">Contact</a>
           </li>
         </ul>
         <a href="#"></a>
@@ -59,7 +76,7 @@
           <h1 id="h1Text" class="center">Hi, I'm Theo Mitchell</h1>
           <h3 id="h3Text" class="center">A Web Developer and Software Engineer Technician.</h3>
           <a target="_blank" rel="noopener noreferrer" href="" id="aLink" class="center"></a>
-          <h4 class="center" id="h4Text">Motto: Programming to change the world!</h4>
+          <h4 class="center" id="h4Text">Coding to change the world!</h4>
           <p id="pText" class="center italic">Please click in the photos below to know me a little better.</p>
         </div> <!-- /.text-details-->
 
@@ -69,7 +86,7 @@
             <button class="download-resume shadow">Download
               CV</button>
           </a>
-          <a href="#contact" class="button-like shadow">Contact Me</a>
+          <a href="#contact" class="button-like shadow">Get in touch</a>
         </div> <!-- /.text-resume-->
       </div> <!-- /.text-container-->
 
@@ -77,9 +94,9 @@
         <img id="intro-photo" class="shadow" src="assets/images/personal/1.jpg" alt="Image of Theo Mitchell">
       </div> <!-- /.image-container-->
     </section> <!-- /.introduction -->
-    <!-- End Introduction Area -->
+
     <aside>
-      <ul class="personal-images-container wrapper center" id="intro-thumbnail-photos">
+      <ul class="personal-images-container wrapper" id="intro-thumbnail-photos">
         <li class="personal-image center">
           <img src="./assets/images/personal/2.JPEG" alt="Image of Theo Mitchell" id="thumbnail-image-2"
             class="thumbnail shadow">
@@ -96,8 +113,10 @@
           <img src="./assets/images/personal/4.jpg" alt="Image of Theo Mitchell" id="thumbnail-image-4"
             class="thumbnail shadow">
         </li>
+        <span id="end-introduction"></span>
       </ul>
     </aside>
+    <!-- End Introduction Area -->
 
 
 
@@ -110,7 +129,7 @@
       <h2 class="center h2">skills set</h2>
 
 
-      <div class="a1">
+      <div class="a1 shadow">
         <h3 class="skills-set-title center" id="programming-language">Programming Languages:</h3>
         <ul class="technical-skills-list center">
           <li class="technical-skills-item">
@@ -154,26 +173,26 @@
 
 
       <div class="a2">
-        <div class="a3">
+        <div class="a3 shadow">
           <h3 class="skills-set-title center">Version Control System:</h3>
           <ul class="technical-skills-list center">
             <li class="technical-skills-item">
               <i class="devicon-git-plain-wordmark colored scale-up"></i>
             </li>
-            <li class="technical-skills-item">
+            <li class="technical-skills-item image-skill-logo1">
               <i class="devicon-github-original-wordmark colored"></i>
             </li>
           </ul>
         </div>
 
 
-        <div class="a4">
+        <div class="a4 shadow">
           <h3 class="skills-set-title center" id="others">Others:</h3>
           <ul class="technical-skills-list center">
             <li class="technical-skills-item">
               <img src="./assets/images/logo/Responsive.png" alt="Visual Studio Logo" class="responsive-skills-logo">
             </li>
-            <li class="technical-skills-item">
+            <li class="technical-skills-item image-skill-logo">
               <img src="./assets/images/logo/Node.js_logo.svg" alt="Node-js Logo" class="node-skills-logo">
             </li>
             <li class="technical-skills-item">
@@ -190,7 +209,7 @@
       </div>
 
 
-      <div class="a5">
+      <div class="a5 shadow">
         <h3 class="skills-set-title center">Platforms:</h3>
         <ul class="technical-skills-list center">
           <li class="technical-skills-item">
@@ -267,6 +286,7 @@
       </ul>
  -->
 
+      <span id="end-skills"></span>
 
 
     </section> <!-- /.skills-container -->
@@ -281,7 +301,7 @@
     <!-- Start Portfolio Area -->
     <section class="portfolio">
       <div class="title">
-        <h2 class="center h2 portfolio-title">portfolio</h2>
+        <h2 class="center h2 portfolio-title ">portfolio</h2>
         <!-- <h2 class="center h2 contact-title">contact</h2> -->
         <h4 class="contact-text center portfolio-subtitle">Some interesting projects made during my trajectory as <br>
           Web
@@ -322,7 +342,7 @@
             <h4 class="title">
               This fun fully implemented game aims to check your knowledge about the release dates of various movies.
             </h4>
-            <button id="project-2-btn" class="project-details center">Project details</button>
+            <button id="project-2-btn" class="project-details center shadow">Project details</button>
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
 
@@ -342,7 +362,7 @@
               A responsive multi-page web application for a travel agency website to share info
               about Guyana beaches.
             </h4>
-            <button id="project-3-btn" class="project-details center">Project details</button>
+            <button id="project-3-btn" class="project-details center shadow">Project details</button>
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
 
@@ -361,7 +381,7 @@
             <h4 class="title">
               This responsive single page website was designed to emulate a mocking up pieces of a website design.
             </h4>
-            <button id="project-4-btn" class="project-details center">Project details</button>
+            <button id="project-4-btn" class="project-details center shadow">Project details</button>
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
 
@@ -375,7 +395,7 @@
           <!-- Modal content -->
           <div class="modal-content">
             <span class="close" id="close-1"><i class="fa-solid fa-circle-xmark"></i></span>
-            <br><br><br>
+            <br>
             <div class="modal-image-container center wrapper">
               <img src="assets/images/coming soon/Coming soon - Made with PosterMyWall.jpg" alt="XXX"
                 class="project-detail-photo">
@@ -393,8 +413,8 @@
                 sequitur mutationem consuetudium lectorum.</p>
 
               <div class="live-code center">
-                <a href="" class="button-like">Live site</a>
-                <a href="" class="button-like">GitHub</a>
+                <a href="" class="button-like shadow" target="_blank" rel="noopener noreferrer">Live site</a>
+                <a href="" class="button-like shadow" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </div>
@@ -407,7 +427,7 @@
           <!-- Modal content -->
           <div class="modal-content">
             <span class="close" id="close-2"><i class="fa-solid fa-circle-xmark"></i></span>
-            <br><br><br>
+
             <div class="modal-image-container center wrapper">
               <img src="./assets/images/projects/mockuper (Project 2).png" alt="XXX" class="project-detail-photo">
             </div> <!-- /.modal-image-container-->
@@ -427,8 +447,10 @@
                 get it right, giving them one point for each correct answer.
               </p>
               <div class="live-code center">
-                <a href="" class="button-like">Live site</a>
-                <a href="" class="button-like">GitHub</a>
+                <a href="https://dainty-raindrop-d7bcbd.netlify.app" class="button-like shadow" target="_blank"
+                  rel="noopener noreferrer">Live site</a>
+                <a href="https://github.com/tdmitchell/movieTrivia" class="button-like shadow" target="_blank"
+                  rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </div>
@@ -441,7 +463,7 @@
           <!-- Modal content -->
           <div class="modal-content">
             <span class="close" id="close-3"><i class="fa-solid fa-circle-xmark"></i></span>
-            <br><br><br>
+            <!-- <br><br><br> -->
             <div class="modal-image-container center wrapper">
               <img src="./assets/images/projects/mockuper (project 1).png" alt="XXX" class="project-detail-photo">
             </div> <!-- /.modal-image-container-->
@@ -464,8 +486,10 @@
                 message and see
                 if it has been successfully sent.</p>
               <div class="live-code center">
-                <a href="" class="button-like">Live site</a>
-                <a href="" class="button-like">GitHub</a>
+                <a href="https://rococo-caramel-b2a437.netlify.app" class="button-like shadow" target="_blank"
+                  rel="noopener noreferrer">Live site</a>
+                <a href="https://github.com/tdmitchell/theoMitchellProjectOne" class="button-like shadow"
+                  target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </div>
@@ -478,7 +502,7 @@
           <!-- Modal content -->
           <div class="modal-content">
             <span class="close" id="close-4"><i class="fa-solid fa-circle-xmark"></i></span>
-            <br><br><br>
+            <!-- <br><br><br> -->
             <div class="modal-image-container center wrapper">
               <img src="./assets/images/projects/mockuper (assignment 1).png" alt="XXX" class="project-detail-photo">
             </div> <!-- /.modal-image-container-->
@@ -494,8 +518,10 @@
                 design. It was solo
                 developed to solidify my knowledge in HTML and CSS.</p>
               <div class="live-code center">
-                <a href="" class="button-like">Live site</a>
-                <a href="" class="button-like">GitHub</a>
+                <a href="https://glistening-sawine-640bba.netlify.app" class="button-like shadow" target="_blank"
+                  rel="noopener noreferrer">Live site</a>
+                <a href="https://github.com/tdmitchell/tasty-assignment-1" class="button-like shadow" target="_blank"
+                  rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </div>
@@ -503,6 +529,8 @@
         </div> <!-- /#my-modal-project-4 -->
 
       </div> <!-- End Modal Implementation Area -->
+
+      <span id="end-portfolio"></span>
     </section> <!-- /.portfolio -->
     <!-- End portfolio Area -->
 
@@ -577,21 +605,23 @@
             <input type="hidden" name="_autoresponse"
               value="Thank you for reaching out. I will contact you soon. Regards, Theo Mitchell">
 
-            <lable class="form-element sr-only" for="name">Full name</lable>
+            <lable class="sr-only lable" for="name">Full name</lable>
             <input type="text" class="form-element" id="name" name="name" placeholder="Full name..." required>
 
-            <lable class="form-element sr-only" for="email">Email Address</lable>
+            <lable class="sr-only lable" for="email">Email Address</lable>
             <input type="email" class="form-element" id="email" name="email" placeholder="Email Address..." required>
 
-            <lable class="form-element sr-only" for="phone">Phone</lable>
-            <input type="tel" class="form-element" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-              placeholder="xxx-xxx-xxxx">
+            <lable class="sr-only lable" for="phone">Phone</lable>
+            <!-- <input type="tel" class="form-element" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              placeholder="xxx-xxx-xxxx"> -->
+            <input type="tel" class="form-element" id="phone" name="phone" pattern="0-9()-\s"
+              placeholder="xxx xxx xxxx (optional)">
 
-            <lable class="form-element sr-only" for="message">Message</lable>
+            <lable class="sr-only lable" for="message">Message</lable>
             <textarea type="text" class="form-element" id="message" name="message" cols="30" rows="10"
               placeholder="Leave your message here..." required></textarea>
 
-            <button type="submit" class="submit-form center">Send message</button>
+            <button type="submit" id="message-button" class="submit-form center shadow">Send message</button>
           </form>
 
 
@@ -603,14 +633,16 @@
   </main>
   <!-- End Main Area -->
 
+  <!-- Start Footer Area -->
   <footer>
     <p class="center">Develop by Theo Dias Mitchell - 2022</p>
     <p class="center">During Web Development Bootcamp at Juno College of Technology</p>
   </footer>
-
+  <!-- End Footer Area -->
 
   <script src="./scripts/introduction.js"></script>
   <script src="./scripts/portifolio.js"></script>
+  <script src="./scripts/contact.js"></script>
 </body>
 
 </html>

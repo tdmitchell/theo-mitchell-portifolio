@@ -8,7 +8,7 @@
     flex-basis: 45%;
     margin-bottom: 20px;
     padding: 20px 20px 0 20px;
-    border-radius: 15px;
+    // border-radius: 15px;
 
     .project-image-container {
       width: 100%;
@@ -46,9 +46,9 @@
 
   /* Modal Content/Box */
   .modal-content {
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 30px auto;
     padding: 20px;
-    width: 60%; /* Could be more or less, depending on screen size */    
+    width: 70%; /* Could be more or less, depending on screen size */    
 
     .project-1-details,
     .project-2-details,

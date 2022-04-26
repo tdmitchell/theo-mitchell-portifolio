@@ -26,8 +26,18 @@ li {
   margin-bottom: 10px;
 }
 
+
+.a1,
+.a3,
+.a4,
+.a5 {
+  padding-top: 20px;
+  border-radius: 15px;
+}
+
 .a1 {
   margin-bottom: 40px;
+  
 }
 .a2 {
   margin-bottom: 40px;
@@ -35,13 +45,8 @@ li {
   justify-content: space-evenly;
 }
 .a3 {
-  width: 40%;
-  ;
+  width: 30%;
 }
 .a4 {
-  width: 55%;
-  
-}
-.a5 {
-  
+  width: 40%;  
 }

@@ -3,6 +3,7 @@
   flex-direction: column;
   flex-basis: 60%;
   padding: 20px;
+  border-radius: 15px;
 
   .form-element {
     width: 100%;
@@ -10,5 +11,5 @@
     padding: 10px;
     resize: none;
     z-index: 5;
-  }
+  }  
 }
