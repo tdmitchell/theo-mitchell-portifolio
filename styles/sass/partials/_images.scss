@@ -19,7 +19,7 @@ body {
 // }
 
 #intro-photo {
-  width: 500px;
+  width: 485px;
   // height: 100%;
   
   // border-radius: 15px;
@@ -101,23 +101,13 @@ body {
 .js-skills-logo,
 .eclipse-skills-logo,
 .node-skills-logo,
-.asp-net-skills-logo {
-  height: 52px;
-}
-
-// .node-skills-logo{
-//   margin-left: 35px;
-//   margin-right: 35px;
-// }
-
-.API-skills-logo {
-  height: 60px;
-}
-
-.responsive-skills-logo {
-  height: 60px;
-}
-
+.asp-net-skills-logo,
 .c-sharp {
   height: 52px;
+}
+
+.API-skills-logo,
+.responsive-skills-logo,
+.linkedIn-logo {
+  height: 60px;
 }

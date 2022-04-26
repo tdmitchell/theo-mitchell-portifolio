@@ -209,7 +209,7 @@ body img {
 }
 
 #intro-photo {
-  width: 500px;
+  width: 485px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -287,20 +287,15 @@ body img {
 .js-skills-logo,
 .eclipse-skills-logo,
 .node-skills-logo,
-.asp-net-skills-logo {
-  height: 52px;
-}
-
-.API-skills-logo {
-  height: 60px;
-}
-
-.responsive-skills-logo {
-  height: 60px;
-}
-
+.asp-net-skills-logo,
 .c-sharp {
   height: 52px;
+}
+
+.API-skills-logo,
+.responsive-skills-logo,
+.linkedIn-logo {
+  height: 60px;
 }
 
 nav.wrapper {
@@ -347,6 +342,12 @@ nav.wrapper {
 .introduction {
   height: 60vh;
   line-height: 1.4;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .text-container {
@@ -366,7 +367,6 @@ nav.wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 20px;
 }
 .text-container .text-details {
   width: 100%;
@@ -382,7 +382,6 @@ nav.wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 20px auto;
   height: 80px;
   width: 100%;
 }
@@ -393,8 +392,8 @@ nav.wrapper {
   display: flex;
   width: 500px;
   height: 90%;
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
