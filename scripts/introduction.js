@@ -31,7 +31,7 @@ srcImage3.addEventListener('click', () => {
   targetImage.src = './assets/images/personal/3.jpg';
 
   h1Text.innerText = 'Soft Skills';
-  h3Text.innerText = 'Coding to change the world!';  
+  h3Text.innerText = 'Writing code to change the world!';  
   aLink.innerText =  '';
   aLink.href =  '';
   h4Text.innerText = '';

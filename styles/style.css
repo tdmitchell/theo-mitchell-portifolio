@@ -77,10 +77,9 @@ body footer {
   color: #f1e0cb;
   background-color: #74492d;
 }
-body h1 {
-  color: #ff5100;
-}
-body .h2 {
+body h1,
+body .h2,
+body .h2-nav {
   color: #ff5100;
 }
 body .background-2 {
@@ -179,6 +178,10 @@ i {
 
 h1, h3 {
   font-family: "Courgette", cursive;
+}
+
+.h2-nav {
+  font-family: "Rock Salt", cursive;
 }
 
 #aLink,
@@ -376,7 +379,7 @@ nav.wrapper {
 .text-container .text-details h3,
 .text-container .text-details p,
 .text-container .text-details h4 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .text-container .text-resume {
   display: -webkit-box;
