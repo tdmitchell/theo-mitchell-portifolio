@@ -69,6 +69,10 @@ body {
       height: 150px;
       padding: 0;
     }
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
@@ -94,7 +98,8 @@ body {
 // }
 
 
-.skills-logo {
+.skills-logo,
+.terminal {
   height: 70px;
 }
 
@@ -102,12 +107,13 @@ body {
 .eclipse-skills-logo,
 .node-skills-logo,
 .asp-net-skills-logo,
-.c-sharp {
+.c-sharp, 
+.terminal {
   height: 52px;
 }
 
 .API-skills-logo,
 .responsive-skills-logo,
 .linkedIn-logo {
-  height: 60px;
+  height: 50px;
 }

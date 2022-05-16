@@ -8,7 +8,12 @@
     flex-basis: 45%;
     margin-bottom: 20px;
     padding: 20px 20px 0 20px;
+    cursor: pointer;
     // border-radius: 15px;
+
+    &:hover {
+        transform: scale(1.03);
+      }
 
     .project-image-container {
       width: 100%;
@@ -53,7 +58,8 @@
     .project-1-details,
     .project-2-details,
     .project-3-details,
-    .project-4-details {
+    .project-4-details,
+    .project-5-details {
       flex-direction: column;      
 
       span {
@@ -73,4 +79,3 @@
     }
   }
 }
-
