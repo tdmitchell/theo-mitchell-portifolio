@@ -134,13 +134,13 @@ body {
 
   .modal-content {
     background-color: $background-2;
-    border: 1px solid #888888;
+    border: 1px solid $shadow;
 
     .disabled {
-      background-color: #888888;
+      background-color: $shadow;
 
       &:hover{
-        background-color: #888888;
+        background-color: $shadow;
       }
     }
 
@@ -150,7 +150,7 @@ body {
 
       &:hover,
       &:focus {
-        color: #ff0000;
+        color: $text3;
       }
     }
   }
@@ -164,4 +164,14 @@ body {
 .a4,
 .a5 {
   background-color: $background-2;
+}
+
+
+.home-arrow {
+  color: #2d1c07;
+
+  &:hover,
+  &:focus {
+    color: $buttonHover;
+  }
 }
