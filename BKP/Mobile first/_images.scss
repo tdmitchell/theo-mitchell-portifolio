@@ -1,0 +1,68 @@
+// 1. General
+
+body {
+    box-sizing: border-box;
+  
+    img {
+      border-radius: 15px;
+    }
+  }
+
+// 2. Navegation
+#nav-photo {
+    border-radius: 50%;
+    height: 60px;
+}
+
+// 3. Introduction
+#intro-photo {
+    width: 90%; 
+}
+
+// 4. Skills
+.image-skill-logo {
+    margin: auto 35px;
+}
+
+.image-skill-logo1 {
+    margin-left: 35px;
+}
+
+.skills-logo,
+.terminal {
+    height: 70px;
+}
+
+.js-skills-logo,
+.eclipse-skills-logo,
+.node-skills-logo,
+.asp-net-skills-logo,
+.c-sharp, 
+.terminal {
+    height: 52px;
+}
+
+.API-skills-logo,
+.responsive-skills-logo,
+.linkedIn-logo {
+    height: 50px;
+}
+
+
+// 5. Projects
+.project-image-container {
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-image-container {
+    .project-detail-photo {
+        width: 50%;
+        margin: 10px;
+        // border-radius: 15px;
+        justify-content: flex-end;
+        }
+    }
+}

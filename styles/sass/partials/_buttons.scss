@@ -6,50 +6,38 @@
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+  margin: 10px auto;
   padding: 10px;
   width: 150px;
   height: 50px; 
   border-radius: 10px;
-
-  &:hover {
-    transform: scale(1.1);
-  }
 }
 
-.button-like,
-.download-resume {
-  margin: 20px;
+// Introduction Section
+.intro-left,
+.intro-right {
+  position: relative;
+  // bottom: -70px;
+  border-radius: 50%;
+  // font-size: 1.3em;
 }
 
-// .submit-form {
-//   margin: 0px;
-// }
-
-
-.project-details {
-  margin-top: 50px;
-
-} 
-.modal {
-  .modal-content {
-    /* The Close Button */
-    .close {
-      float: right;
-      font-size: 28px;
-      font-weight: bold;
-      
-      &:hover,
-      &:focus {
-        // color: red;
-        text-decoration: none;
-        cursor: pointer;
-      }
-    }
-  }
+.intro-left {
+  right: -15px;
 }
 
-.home-arrow {
+.intro-right {
+  right: 15px;
+}
+
+.introduction-arrow {
+  font-size: 1.5em;
+}
+
+.home-arrow { 
+  // margin: 50px; 
   position: fixed;
-  bottom: 100px;
-  right: 40px;
+  bottom: 20px;
+  right: 20px;
 }
+

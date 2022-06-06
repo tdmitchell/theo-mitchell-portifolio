@@ -1,0 +1,33 @@
+.download-resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+    padding: 10px;
+    width: 150px;
+    height: 50px; 
+    border-radius: 10px;
+}
+
+.intro-left,
+.intro-right {
+    position: relative;
+    // bottom: 50px;
+}
+
+.intro-left {
+    right: -60px;
+}
+
+.intro-right {
+    right: 60px;
+}
+
+
+// .home-arrow {
+// position: fixed;
+// bottom: 100px;
+// right: 40px;
+// }
+

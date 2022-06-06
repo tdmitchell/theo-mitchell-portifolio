@@ -1,0 +1,14 @@
+@media (max-width: 1000px) {
+    .introduction {
+        flex-direction: column;
+
+        .text-container {
+            justify-content: normal;
+            .text-details {
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+
+}

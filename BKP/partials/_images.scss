@@ -1,0 +1,119 @@
+body {
+  box-sizing: border-box;
+
+  img {
+    border-radius: 15px;
+  }
+}
+
+#nav-photo {
+  border-radius: 50%;
+  height: 60px;
+}
+
+// #intro-photo {
+//   width: 90%;
+//   margin-left: 20px;
+//   // border-radius: 15px;
+//   justify-content: flex-end;
+// }
+
+#intro-photo {
+  width: 485px;
+  // height: 100%;
+  
+  // border-radius: 15px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#intro-thumbnail-photos {
+  width: 80%;
+  // margin-top: 10px;
+  // border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+
+  .thumbnail:hover {
+    transform: scale(1.1);
+  }
+}
+
+.project-image-container {
+  .project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  // img {
+  //   border-radius: 15px;
+  // }
+}
+
+
+
+.personal-images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 25%;
+
+  .personal-image {
+    padding: 0;
+    flex-basis: 20%;
+
+    img {
+      // flex-basis: 20%;
+      width: 100%;
+      height: 150px;
+      padding: 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.image-skill-logo {
+  margin: auto 35px;
+}
+
+.image-skill-logo1 {
+  margin-left: 35px;
+}
+
+.project-detail-photo {
+  width: 50%;
+  margin: 10px;
+  // border-radius: 15px;
+  justify-content: flex-end;
+}
+
+// .contact {
+//   // opacity: 0.2;
+//   background-image: url(./../assets/images/matriz.webp);
+//   z-index: -1;
+// }
+
+
+.skills-logo,
+.terminal {
+  height: 70px;
+}
+
+.js-skills-logo,
+.eclipse-skills-logo,
+.node-skills-logo,
+.asp-net-skills-logo,
+.c-sharp, 
+.terminal {
+  height: 52px;
+}
+
+.API-skills-logo,
+.responsive-skills-logo,
+.linkedIn-logo {
+  height: 50px;
+}

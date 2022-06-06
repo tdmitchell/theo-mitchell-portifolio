@@ -1,0 +1,21 @@
+@media (min-width: 600px) {
+    .introduction {   
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .text-container {
+            flex-basis: 50%;
+            
+        }
+
+        .image-container {
+            flex-basis: 50%;
+
+            #intro-photo {
+                width: 50%;
+              }
+        }
+    }
+}
+

@@ -7,6 +7,7 @@
 $background: #efcbab;
 $background-2: #fcd7be;
 $background-3: #74492d;
+$background-4: #74492d;
 // $shadow: #c95740;
 $shadow: #9d9795;
 $text1: #2d1c07;
@@ -18,24 +19,18 @@ $buttonHover: #f0a46d;
 // $buttonTextHover#
 
 
-//7d98a1
-//424651
-
-
-
-
-
-
-
+// General
 body {
   background-color: $background;
   color: $text1;
 
+  .italic {
+    color: $text3;
+  }
+
   header {
     background-color: $background-3;
-    // position: fixed;
-    top: 0;
-    width: 100%;
+    // width: 100%;
   }
 
   footer {
@@ -88,10 +83,16 @@ body {
   .shadow {
     box-shadow: 5px 5px 5px $shadow;
   }
+
+  .home-arrow {
+    color: $text3;
+  
+    &:hover,
+    &:focus {
+      color: $buttonHover;
+    }
+  }
 }
-
-
-
 
 // Horizontal Line
 .separation {
@@ -100,34 +101,32 @@ body {
   }
 }
 
+// Skills Line
+.a1, 
+.a3,
+.a4,
+.a5 {
+  background-color: $background-2;
+}
 
+// Introduction Section
+.intro-left,
+.intro-right {
+  color: $text1;
+  background-color: $background-2;
+}
 
-
-
+// Projects Section
 .project {
   background-color: $background-2;
 }
+
 .project-image {
-  background-color: #ffffff;
+  background-color: $background-4;
 }
 
 
-
-
-
-.contact-section {
-  .contact-info,
-  .contact-info-1 {
-    color: $text1;
-  }
-
-  .form-container {
-    background-color: $background-2;
-  }
-}
-
-
-//Modal for Project
+// Modal for Project
 .modal {
   background-color: #00000066;
   /* Black w/ opacity */
@@ -158,20 +157,16 @@ body {
 
 
 
+// Contact Section
+.contact-section {
+  .contact-info,
+  .contact-info-1 {
+    color: $text1;
+  }
 
-.a1, 
-.a3,
-.a4,
-.a5 {
-  background-color: $background-2;
-}
-
-
-.home-arrow {
-  color: #2d1c07;
-
-  &:hover,
-  &:focus {
-    color: $buttonHover;
+  .form-container {
+    background-color: $background-2;
   }
 }
+
+

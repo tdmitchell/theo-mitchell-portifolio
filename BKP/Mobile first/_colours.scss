@@ -1,0 +1,186 @@
+// $background: #222428;
+// $background-2: #2f3237;
+// $shadow: #deb914;
+// $text: #C7CEDE;
+// $secundary: #dec761;
+
+$background: #efcbab;
+$background-2: #fcd7be;
+$background-3: #74492d;
+// $shadow: #c95740;
+$shadow: #9d9795;
+$text1: #2d1c07;
+$text2: #f1e0cb;
+// $text3: #e24040;
+$text3: #ff5100;
+$secundary: #2b2118;
+$buttonHover: #f0a46d;
+// $buttonTextHover#
+
+
+// DELETE - STARTs HERE
+.introduction {
+  .text-container {
+      background-color: blue;
+  }
+
+  .image-container {
+      background-color: red;
+  }
+
+}
+
+// DELETE - ENDs HERE
+
+
+
+
+
+body {
+  background-color: $background;
+  color: $text1;
+
+  header {
+    background-color: $background-3;
+    // position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  footer {
+    color: $text2;
+    background-color: $background-3;
+  }
+  
+  h1,
+  .h2,
+  .h2-nav {
+    color: $text3;
+  }
+  
+  .background-2 {
+    background-color: $background-2;
+    border-radius: 15px;
+  }
+
+  .button-like,
+  .download-resume,
+  .submit-form,
+  .project-details {
+    background-color: $text1;
+    color: $text2;
+
+    &:hover {
+      background-color: $buttonHover;
+      color: $text1;
+    }
+  }
+  
+  a {
+    color: $text2;
+
+    &:hover {
+      color: $text3;
+    }
+  }
+
+  #aLink {
+    color: $text1;
+  
+    &:hover {
+      background-color: $buttonHover;
+      color: $text2;
+    }
+  
+  }
+  
+  .shadow {
+    box-shadow: 5px 5px 5px $shadow;
+  }
+}
+
+
+
+
+// Horizontal Line
+.separation {
+  .line {
+    border-bottom: 2px solid $text1;
+  }
+}
+
+
+
+
+
+.project {
+  background-color: $background-2;
+}
+.project-image {
+  background-color: #ffffff;
+}
+
+
+
+
+
+.contact-section {
+  .contact-info,
+  .contact-info-1 {
+    color: $text1;
+  }
+
+  .form-container {
+    background-color: $background-2;
+  }
+}
+
+
+//Modal for Project
+.modal {
+  background-color: #00000066;
+  /* Black w/ opacity */
+
+  .modal-content {
+    background-color: $background-2;
+    border: 1px solid $shadow;
+
+    .disabled {
+      background-color: $shadow;
+
+      &:hover{
+        background-color: $shadow;
+      }
+    }
+
+    /* The Close Button */
+    .close {
+      color: #2d1c07;
+
+      &:hover,
+      &:focus {
+        color: $text3;
+      }
+    }
+  }
+}
+
+
+
+
+.a1, 
+.a3,
+.a4,
+.a5 {
+  background-color: $background-2;
+}
+
+
+.home-arrow {
+  color: #2d1c07;
+
+  &:hover,
+  &:focus {
+    color: $buttonHover;
+  }
+}

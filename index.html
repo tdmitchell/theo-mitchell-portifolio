@@ -28,39 +28,42 @@
   <!-- Start Header Area -->
   <header>
     <nav class="wrapper">
-      <div class="header-left">
+      <div class="theo center">
         <a href="index.html">
           <img id="nav-photo" src="assets/images/logo/Theo.jpg" alt="Small image of Theo Mitchell">
         </a>
-      </div> <!-- /.header-left -->
+        <div class="header-middle md-device">
+          <h2 class="h2-nav">Theo Mitchell</h2>
+        </div>
+      </div> <!-- /.theo-img -->
 
-      <div class="header-middle">
-        <h2 class="h2-nav">Theo Mitchell</h2>
-      </div>
+      <div class="nav center">
+        <div class="header-right center">
+          <ul>
+            <!-- <li class="nav-item ">
+              <a href="#introduction-start" class="nav-link">Home</a>
+            </li> -->
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link ">Portfolio</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="#resume" class="nav-link">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a href="#testimonial" class="nav-link">Testimonial</a>
+            </li> -->
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <!-- <a href="#"></a> -->
+        </div> <!-- /.header-right -->
+      </div>      
 
-      <div class="header-right">
-        <ul>
-          <!-- <li class="nav-item ">
-            <a href="#introduction-start" class="nav-link">Home</a>
-          </li> -->
-          <li class="nav-item">
-            <a href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a href="#portfolio" class="nav-link ">Portfolio</a>
-          </li>
-          <!-- <li class="nav-item">
-            <a href="#resume" class="nav-link">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a href="#testimonial" class="nav-link">Testimonial</a>
-          </li> -->
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-        </ul>
-        <a href="#"></a>
-      </div> <!-- /.header-right -->
+      
     </nav> <!-- /.wrapper -->
   </header>
   <!-- End Header Area -->
@@ -68,52 +71,36 @@
   <!-- Start Main Area -->
   <main id="introduction-start">
     <!-- Start Introduction Area -->
-    <section class="introduction wrapper">
-      <div class="wrapper text-container">
+    <section class="introduction center wrapper">
+      <div class="wrapper text-container center">
         <div class="text-details shadow background-2 center">
           <h1 id="h1Text" class="center">Hi, I'm Theo Mitchell</h1>
           <h3 id="h3Text" class="center">A Web Developer and Software Engineer Technician.</h3>
           <a target="_blank" rel="noopener noreferrer" href="" id="aLink" class="center"></a>
           <h4 class="center" id="h4Text">Coding to change the world!</h4>
-          <p id="pText" class="center italic">Please click on the photos below to know me a little better.</p>
+          <p id="pText" class="center italic">Click on the arrows to know me a little better.</p>
+
+          <div class="text-resume center">
+            <a href="./assets/resume/Resume_Theo_Mitchell.pdf" download target="_blank" rel="noopener noreferrer">
+              <button class="download-resume shadow">Download
+                CV</button>
+            </a>
+            <a href="#contact" class="download-resume shadow">Get in touch</a>
+          </div> <!-- /.text-resume-->
         </div> <!-- /.text-details-->
 
-        <div class="text-resume shadow center background-2">
-
-          <a href="./assets/resume/Resume_Theo_Mitchell.pdf" download target="_blank" rel="noopener noreferrer">
-            <button class="download-resume shadow">Download
-              CV</button>
-          </a>
-          <a href="#contact" class="button-like shadow">Get in touch</a>
-        </div> <!-- /.text-resume-->
       </div> <!-- /.text-container-->
 
       <div class="image-container center">
-        <img id="intro-photo" class="shadow" src="assets/images/personal/1bw.jpg" alt="Image of Theo Mitchell">
+        <a href="#" class="intro-left"> <i class="fa-solid fa-circle-chevron-left introduction-arrow"></i></a>
+        <img id="intro-photo" class="shadow center" src="assets/images/personal/1bw.jpg" alt="Image of Theo Mitchell">
+        <a href="#" class="intro-right"> <i class="fa-solid fa-circle-chevron-right introduction-arrow"></i></a>
       </div> <!-- /.image-container-->
-    </section> <!-- /.introduction -->
 
-    <aside>
-      <ul class="personal-images-container wrapper" id="intro-thumbnail-photos">
-        <li class="personal-image center">
-          <img src="./assets/images/personal/2.JPEG" alt="Image of Theo Mitchell" id="thumbnail-image-2"
-            class="thumbnail shadow">
-        </li>
-        <li class="personal-image center">
-          <img src="./assets/images/personal/3.jpg" alt="Image of Theo Mitchell" id="thumbnail-image-3"
-            class="thumbnail shadow">
-        </li>
-        <li class="personal-image center">
-          <img src="./assets/images/personal/5.jpg" alt="Image of Theo Mitchell" id="thumbnail-image-5"
-            class="thumbnail shadow">
-        </li>
-        <li class="personal-image center">
-          <img src="./assets/images/personal/4.jpg" alt="Image of Theo Mitchell" id="thumbnail-image-4"
-            class="thumbnail shadow">
-        </li>
-        <!-- <span id="end-introduction"></span> -->
-      </ul>
-    </aside>
+
+
+
+    </section> <!-- /.introduction -->    
     <!-- End Introduction Area -->
 
 
@@ -214,10 +201,7 @@
           </li>
           <li class="technical-skills-item">
             <img src="./assets/images/skills/visual-studio.png" alt="Visual Studio Logoapi\" class="skills-logo">
-          </li>
-          <li class="technical-skills-item">
-            <img src="./assets/images/skills/eclipse.png" alt="Eclipse Logo" class="skills-logo">
-          </li>
+          </li>          
           <li class="technical-skills-item">
             <img src="./assets/images/skills/oracle-sql-developer.png" alt="Visual Studio Logo"
               class="node-skills-logo">
@@ -225,6 +209,9 @@
           <li class="technical-skills-item ">
             <img src="./assets/images/skills/terminal.png" alt="Visual Studio Logo"
               class="responsive-skills-logo terminal">
+          </li>
+          <li class="technical-skills-item">
+            <img src="./assets/images/skills/eclipse.png" alt="Eclipse Logo" class="skills-logo">
           </li>
         </ul>
       </div>
@@ -234,14 +221,13 @@
     <!-- End Skills Area -->
 
 
-
     <div class="separation" id="portfolio">
       <span class="line center"></span>
     </div> <!-- /.separation -->
 
     <!-- Start Portfolio Area -->
     <section class="portfolio">
-      <div class="title">
+      <div class="title center">
         <h2 class="center h2 portfolio-title ">portfolio</h2>
         <!-- <h2 class="center h2 contact-title">contact</h2> -->
         <h4 class="contact-text center portfolio-subtitle">Some interesting projects made during my trajectory as <br>
@@ -261,7 +247,7 @@
             <div class="category-list center">
               <p>HTML | Sass | React | Firebase | API | Git | GitHub | Pair Programming | Responsive</p>
             </div>
-            <h4 class="title">
+            <h4 class="title center">
               <!-- This group project will be released on May 5, 2022. -->
               An app to help you pick a movie to watch. You can search for movies according to your mood and available
               time, create a
@@ -274,7 +260,11 @@
 
         <article class="project shadow background-2" id="project-2">
           <!-- Trigger/Open The Modal -->
-          <div class="project-image-container ">
+          <div class="project-image-container sm-device">
+            <img class="project-image background-2" src="assets/images/projects/mockuper (project 2) - small device.png"
+              alt="Project 2 initial page in different devices.">
+          </div>
+          <div class="project-image-container md-device">
             <img class="project-image background-2" src="assets/images/projects/mockuper (Project 2).png"
               alt="Project 2 initial page in different devices.">
           </div> <!-- /.project-image-container -->
@@ -283,16 +273,30 @@
             <div class="category-list center">
               <p>HTML | Sass | JavaScript | API | Git | GitHub | Pair Programming | Responsive</p>
             </div>
-            <h4 class="title">
+            <h4 class="title center">
               This fun fully implemented game aims to check your knowledge about the release dates of various movies.
             </h4>
-            <button id="project-2-btn" class="project-details center shadow">Project details</button>
+            <div class="live-code center sm-device">
+              <a href="https://dainty-raindrop-d7bcbd.netlify.app" class="button-like shadow" target="_blank"
+              rel="noopener noreferrer">Live site</a>
+            <a href="https://github.com/tdmitchell/movieTrivia" class="button-like shadow" target="_blank"
+              rel="noopener noreferrer">GitHub</a>
+            </div>
+            <div class="md-device">
+              <button id="project-2-btn" class="project-details center shadow">Project details</button>
+            </div>
+            
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
 
+
         <article class="project shadow background-2" id="project-3">
           <!-- Trigger/Open The Modal -->
-          <div class="project-image-container ">
+          <div class="project-image-container sm-device">
+            <img class="project-image background-2 sm-device" src="assets/images/projects/mockuper (project 1) - small device.png"
+              alt="Project 3 initial page in different devices.">
+          </div>
+          <div class="project-image-container md-device">
             <img class="project-image background-2" src="assets/images/projects/mockuper (project 1).png"
               alt="Project 3 initial page in different devices.">
           </div> <!-- /.project-image-container -->
@@ -301,18 +305,30 @@
             <div class="category-list center">
               <p>HTML | Sass | JavaScript | Responsive</p>
             </div>
-            <h4 class="title">
+            <h4 class="title center">
               A responsive multi-page web application for a travel agency website to share info
               about Guyana beaches.
             </h4>
-            <button id="project-3-btn" class="project-details center shadow">Project details</button>
+            <div class="live-code center sm-device">
+              <a href="https://rococo-caramel-b2a437.netlify.app" class="button-like shadow" target="_blank"
+                rel="noopener noreferrer">Live site</a>
+              <a href="https://github.com/tdmitchell/theoMitchellProjectOne" class="button-like shadow"
+                target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+            <div class="md-device">
+              <button id="project-3-btn" class="project-details center shadow">Project details</button>
+            </div>            
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
 
 
         <article class="project shadow background-2" id="project-4">
           <!-- Trigger/Open The Modal -->
-          <div class="project-image-container ">
+          <div class="project-image-container sm-device">
+            <img class="project-image background-2" src="assets/images/projects/mockuper (assignment 1) - small device.png"
+              alt="Project 4 initial page in different devices.">
+          </div>
+          <div class="project-image-container md-device">
             <img class="project-image background-2" src="assets/images/projects/mockuper (assignment 1).png"
               alt="Project 4 initial page in different devices.">
           </div> <!-- /.project-image-container -->
@@ -321,17 +337,29 @@
             <div class="category-list center">
               <p>HTML | CSS | Responsive</p>
             </div>
-            <h4 class="title">
+            <h4 class="title center">
               This responsive single-page website was designed to emulate mocking-up pieces of a website design.
             </h4>
-            <button id="project-4-btn" class="project-details center shadow">Project details</button>
+            <div class="live-code center sm-device">
+              <a href="https://glistening-sawine-640bba.netlify.app" class="button-like shadow" target="_blank"
+                rel="noopener noreferrer">Live site</a>
+              <a href="https://github.com/tdmitchell/tasty-assignment-1" class="button-like shadow" target="_blank"
+                rel="noopener noreferrer">GitHub</a>
+            </div>
+            <div class="md-device">
+              <button id="project-4-btn" class="project-details center shadow">Project details</button>
+            </div>            
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
 
 
         <article class="project shadow background-2" id="project-5">
           <!-- Trigger/Open The Modal -->
-          <div class="project-image-container ">
+          <div class="project-image-container sm-device">
+            <img class="project-image background-2" src="assets/images/projects/mockuper (ShopIQ) - small device.png"
+              alt="ShopIQ for the PR Department live site">
+          </div> 
+          <div class="project-image-container md-device">
             <img class="project-image background-2" src="assets/images/projects/mockuper (ShopIQ).png"
               alt="ShopIQ for the PR Department live site">
           </div> <!-- /.project-image-container -->
@@ -340,14 +368,25 @@
             <div class="category-list center">
               <p>HTML | CSS | JS | jQuery | GitHub | Not responsive</p>
             </div>
-            <h4 class="title">
+            <h4 class="title center">
               This website was developed for the PR Department, a Canadian Marketing Company to make their communication
               easier with all stakeholders including the clients, and media.
             </h4>
-            <button id="project-5-btn" class="project-details center shadow">Project details</button>
+            <div class="live-code center sm-device">
+              <a href="https://shopiq.azurewebsites.net/" class="button-like shadow" target="_blank"
+                rel="noopener noreferrer">Live site</a>
+              <div class="live-code center">
+                <a href="https://wimtach.centennialcollege.ca/centennial-college-graduate-rediscovers-his-passion-for-it/"
+                  class="button-like shadow" target="_blank" rel="noopener noreferrer">Interview</a>
+              </div>
+            </div>
+            <div class="md-device">
+              <button id="project-5-btn" class="project-details center shadow">Project details</button>
+            </div>
+
+            
           </div> <!-- /.project-text-container -->
         </article> <!-- /.project -->
-
       </div> <!-- /.projects-container -->
 
       <!-- Modal Implementation for Project Detail -->
@@ -366,10 +405,11 @@
             <div class="project-1-details wrapper">
               <p><span>Technology:</span> HTML | Sass | React | Firebase | API | Git | GitHub | Pair Programming |
                 Responsive</p>
-              <p class=""><span>Year:</span> 2021</p>
+              <p class=""><span>Year:</span> 2022</p>
               <h2 class=""></h2>
-              <p><span>Project description:</span>
-                Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facerpossim assum.
+              <h4 class="title"><span>Project description:</span>
+              </h4>
+              <p>Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facerpossim assum.
                 Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
                 Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
                 processus dynamicus, qui
@@ -494,6 +534,7 @@
           <!-- End Modal content -->
         </div> <!-- /#my-modal-project-4 -->
 
+
         <!-- The Modal for Project 5-->
         <div id="my-modal-project-5" class="modal">
           <!-- Modal content -->
@@ -541,28 +582,11 @@
           </div>
           <!-- End Modal content -->
         </div> <!-- /#my-modal-project-5 -->
-
       </div> <!-- End Modal Implementation Area -->
 
       <!-- <span id="end-portfolio"></span> -->
     </section> <!-- /.portfolio -->
     <!-- End portfolio Area -->
-
-
-
-    <!--<div class="separation" id="testimonial">
-      <span class="line center"></span>
-    </div>  /.separation -->
-
-    <!-- Start Testimonial Area -->
-    <!-- <section class="testimonial ">
-      <div class="title">
-        <h2 class="center h2">testimonial</h2> 
-    <!-- </div> /.title 
-    <!-- </section> /.Testimonial 
-
-    <!-- End Testimonial Area -->
-
 
 
     <div class="separation" id="contact">
@@ -571,7 +595,7 @@
 
     <!-- Start Contact Area -->
     <section class="contact">
-      <div class="title">
+      <div class="title center">
         <h2 class="center h2 contact-title">contact</h2>
         <h4 class="contact-text center contact-subtitle">Looking forward to getting in touch with you!</h4>
       </div> <!-- /.title -->
@@ -580,9 +604,9 @@
         <article class="info-container">
           <div class="info-content-container background-2 shadow">
             <span class="contact-info"><i class="fa-solid fa-phone-volume contact-info-icon"></i></span>
-            <span class="contact-info-1"><i class="fa-brands fa-whatsapp contact-info-icon"></i></span>
+            <!-- <span class="contact-info-1 md-device"><i class="fa-brands fa-whatsapp contact-info-icon"></i></span> -->
             <div class="phone">
-              <p class="name">Call Me</p>
+              <p class="name md-device">Call Me</p>
               <p class="name">647-679-3970</p>
             </div>
           </div>
@@ -590,26 +614,30 @@
           <div class="info-content-container background-2 shadow">
             <span class="contact-info"><i class="fa-solid fa-envelope contact-info-icon"></i></span>
             <div class="e-mail">
-              <p class="name">E-mail</p>
-              <p class="name">theomitchell@gmail.com</p>
+              <p class="name sm-device">theomitchell-developer<br>@gmail.com</p>
+              <p class="name md-device">E-mail</p>              
+              <p class="name md-device">theomitchell-developer@gmail.com</p>
             </div>
           </div>
 
           <div class="info-content-container background-2 shadow">
             <span class="contact-info"><i class="fa-solid fa-location-dot contact-info-icon"></i></span>
             <div class="location">
-              <p class="name">Location</p>
-              <p class="name">M4S 2H4</p>
+              <p class="name md-device">Location</p>
+              <p class="name md-device">M4S 2H4</p>
               <p class="name">Toronto - ON</p>
             </div>
           </div>
 
-          <div class="info-content-container social background-2 shadow">
-            <a href="https://github.com/tdmitchell" target="_blank" rel="noopener noreferrer"><i
+          <div class="info-content-container  background-2 shadow">
+            <div class="social">
+              <a href="https://github.com/tdmitchell" target="_blank" rel="noopener noreferrer"><i
                 class="devicon-github-original-wordmark colored"></i></a>
             <a href="https://www.linkedin.com/in/theo-mitchell/" target="_blank" rel="noopener noreferrer"><img
                 src="assets/images/skills/linkedIn.png" class="linkedIn-logo" />
             </a>
+            </div>
+            
           </div>
         </article>
 
@@ -643,9 +671,11 @@
     </section> <!-- /.contact -->
     <!-- End Contact Area -->
 
-    <a href="#introduction-start" class="home-arrow"> <i class="fa-solid fa-circle-arrow-up"></i></a>
+    <a href="#introduction-start" class="home-arrow center"> <i class="fa-solid fa-circle-arrow-up"></i></a>
   </main>
   <!-- End Main Area -->
+
+
 
   <!-- Start Footer Area -->
   <footer>
