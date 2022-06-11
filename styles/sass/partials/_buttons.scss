@@ -14,24 +14,8 @@
 }
 
 // Introduction Section
-.intro-left,
-.intro-right {
-  position: relative;
-  // bottom: -70px;
-  border-radius: 50%;
-  // font-size: 1.3em;
-}
-
-.intro-left {
-  right: -15px;
-}
-
-.intro-right {
-  right: 15px;
-}
-
 .introduction-arrow {
-  font-size: 1.5em;
+  font-size: 1.9em;
 }
 
 .home-arrow { 
@@ -39,5 +23,6 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
+  z-index: 50;
 }
 

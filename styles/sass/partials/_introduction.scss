@@ -20,15 +20,27 @@
           // align-content: ;
 
           .text-resume {
-              display: flex;
-              flex-direction: column;
+            display: flex;
+            flex-direction: column;
           }
       }
   }
 
   .image-container {
-      display: flex;
-      flex-direction: row;
-      padding-bottom: 20px;   
+    width: 90%;
+    // min-height: 180px;
+    // height: 100%;
+    display: flex;
+    flex-direction: column;
+    // padding-bottom: 20px;   
+
+    .buttons {
+      z-index: 10;
+      margin-bottom: 10px;
+    }
+
+    .carousel {
+      z-index: 2;
+    }
   }
 }
