@@ -1,5 +1,4 @@
 // 1. General
-
 body {
   box-sizing: border-box;
 
@@ -21,14 +20,6 @@ body {
 }
 
 // 4. Skills
-// .image-skill-logo {
-//   margin: auto 35px;
-// }
-
-// .image-skill-logo1 {
-//   margin-left: 35px;
-// }
-
 .skills-logo,
 .terminal {
   height: 70px;
@@ -54,12 +45,9 @@ body {
 .project-image-container {
   .project-image {
     width: 100%;
-    // object-fit: fill;
-    // object-fit: scale-down;
-  }
-
-  
+  }  
 }
+
 .modal-image-container {
   .project-detail-photo {
     width: 100%;

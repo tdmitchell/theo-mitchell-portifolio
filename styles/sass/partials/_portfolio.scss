@@ -11,26 +11,13 @@
         transform: scale(1.03);
       }
 
-    // .project-image-container {
-    //   width: 100%;
-    //   height: 300px;
-    // }
-
     .project-text-container {
       width: 100%;
       margin-top: 15px;
       padding: 0 20px 20px 20px;
-
-
     }
   }
 }
-
-
-
-
-
-
 
 //Modal for Project
 .modal {
@@ -62,14 +49,11 @@
 
       span {
         font-weight: bold;
-
-        // margin-bottom: 15px;
       }
 
       .live-code {
         display: flex;
         flex-direction:  column;
-
       }
 
       p {

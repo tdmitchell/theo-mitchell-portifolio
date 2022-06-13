@@ -398,7 +398,6 @@ body .home-arrow:hover, body .home-arrow:focus {
 
 .modal {
   background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
 }
 .modal .modal-content {
   background-color: #fcd7be;
@@ -419,7 +418,7 @@ body .home-arrow:hover, body .home-arrow:focus {
 }
 
 .contact-section .contact-info,
-.contact-section .contact-info-1 {
+.contact-section .name {
   color: #2d1c07;
 }
 .contact-section .form-container {
@@ -430,15 +429,21 @@ body {
   letter-spacing: 1.5px;
   line-height: 1.5;
   font-family: "Cairo", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 i {
   font-size: 50px;
 }
 
-h1, h3 {
+h1 {
   font-family: "Courgette", cursive;
+  font-size: 1.7em;
+}
+
+h3 {
+  font-family: "Courgette", cursive;
+  font-size: 1.3em;
 }
 
 .h2-nav {
@@ -448,6 +453,7 @@ h1, h3 {
 
 #aLink,
 #h4Text {
+  font-weight: bold;
   font-style: italic;
   text-transform: uppercase;
 }
@@ -551,6 +557,7 @@ li {
   z-index: 10;
 }
 
+/* 3. Buttons */
 .carousel_button {
   position: relative;
   top: 0;
@@ -574,7 +581,6 @@ li {
   width: 12px;
 }
 
-/* 4. Image */
 .is-hidden {
   opacity: 0.2;
 }
@@ -605,13 +611,14 @@ nav .theo {
           justify-content: space-between;
 }
 nav .theo .header-middle {
-  width: 160px;
+  width: 190px;
 }
 nav .theo .header-middle .h2-nav {
   text-align: end;
 }
 nav .nav {
   width: 90%;
+  padding: 10px 0 20px 0;
 }
 nav .nav .header-right ul {
   display: -webkit-box;
@@ -624,6 +631,9 @@ nav .nav .header-right ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+nav .nav .header-right ul li {
+  text-align: center;
 }
 
 #introduction-start {
@@ -639,7 +649,7 @@ nav .nav .header-right ul {
 }
 .introduction .text-container .text-details {
   width: 100%;
-  height: 450px;
+  height: 600px;
   padding: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -995,6 +1005,9 @@ footer {
     font-size: 1.3rem;
   }
 
+  .introduction .text-container .text-details {
+    height: 500px;
+  }
   .introduction .image-container .carousel {
     height: 300px;
   }
@@ -1026,6 +1039,9 @@ footer {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .introduction .text-container .text-details {
+    height: 450px;
   }
   .introduction .image-container .carousel {
     height: 355px;
@@ -1083,6 +1099,9 @@ footer {
     width: 550px;
   }
 
+  .introduction .text-container .text-details {
+    height: 400px;
+  }
   .introduction .text-container .text-details .text-resume {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1116,7 +1135,7 @@ footer {
     height: 490px;
   }
 }
-@media (min-width: 810px) {
+@media (min-width: 820px) {
   nav.wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1132,11 +1151,14 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   nav .theo {
     -ms-flex-preferred-size: 40%;
         flex-basis: 40%;
-    padding-bottom: 10px;
+    padding: 20px 0 15px 0;
   }
   nav .nav {
     -ms-flex-preferred-size: 300px;
@@ -1144,6 +1166,7 @@ footer {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+    padding: 0;
   }
 
   .introduction {
@@ -1162,15 +1185,19 @@ footer {
     -ms-flex-preferred-size: 45%;
         flex-basis: 45%;
   }
+  .introduction .text-container .text-details {
+    height: 450px;
+  }
   .introduction .image-container {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
     max-height: 450px;
   }
   .introduction .image-container .introduction-arrow {
-    font-size: 2em;
+    font-size: 2.5em;
   }
   .introduction .image-container.center {
+    margin-left: 10px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;

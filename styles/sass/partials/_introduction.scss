@@ -6,33 +6,28 @@
   width: 90%;
   
   .text-container {
-      width: 90%; 
-      padding-bottom: 20px;    
+    width: 90%; 
+    padding-bottom: 20px;    
 
-      .text-details {
-          width: 100%;
-          height: 450px;
-          padding: 15px;
+    .text-details {
+      width: 100%;
+      height: 600px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
 
-          display: flex;
-          flex-direction: column;
-          justify-content: space-around;
-          // align-content: ;
-
-          .text-resume {
-            display: flex;
-            flex-direction: column;
-          }
+      .text-resume {
+        display: flex;
+        flex-direction: column;
       }
+    }
   }
 
   .image-container {
     width: 90%;
-    // min-height: 180px;
-    // height: 100%;
     display: flex;
     flex-direction: column;
-    // padding-bottom: 20px;   
 
     .buttons {
       z-index: 10;

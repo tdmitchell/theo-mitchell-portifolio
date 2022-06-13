@@ -4,14 +4,13 @@ nav {
   align-items: center;
 
   .theo {
-    // width: 100px;
     padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     .header-middle {
-      width: 160px;
+      width: 190px;
       .h2-nav {
         text-align: end;
       }
@@ -20,19 +19,17 @@ nav {
 
   .nav {
     width: 90%;
-    // padding: 20px 0;
+    padding: 10px 0 20px 0;
         
     .header-right {
-      // width: 50%;
-
       ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
 
-//         li {
-//           text-align: center;
-//         }
+        li {
+          text-align: center;
+        }
       }
     }
   }

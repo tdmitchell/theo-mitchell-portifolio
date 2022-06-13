@@ -1,23 +1,13 @@
-// $background: #222428;
-// $background-2: #2f3237;
-// $shadow: #deb914;
-// $text: #C7CEDE;
-// $secundary: #dec761;
-
 $background: #efcbab;
 $background-2: #fcd7be;
 $background-3: #74492d;
 $background-4: #74492d;
-// $shadow: #c95740;
 $shadow: #9d9795;
 $text1: #2d1c07;
 $text2: #f1e0cb;
-// $text3: #e24040;
 $text3: #ff5100;
 $secundary: #2b2118;
 $buttonHover: #f0a46d;
-// $buttonTextHover#
-
 
 // General
 body {
@@ -30,7 +20,6 @@ body {
 
   header {
     background-color: $background-3;
-    // width: 100%;
   }
 
   footer {
@@ -76,8 +65,7 @@ body {
     &:hover {
       background-color: $buttonHover;
       color: $text2;
-    }
-  
+    }  
   }
   
   .shadow {
@@ -129,7 +117,6 @@ body {
 // Modal for Project
 .modal {
   background-color: #00000066;
-  /* Black w/ opacity */
 
   .modal-content {
     background-color: $background-2;
@@ -155,12 +142,10 @@ body {
   }
 }
 
-
-
 // Contact Section
 .contact-section {
   .contact-info,
-  .contact-info-1 {
+  .name {
     color: $text1;
   }
 
@@ -168,5 +153,3 @@ body {
     background-color: $background-2;
   }
 }
-
-
