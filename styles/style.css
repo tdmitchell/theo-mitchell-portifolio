@@ -312,7 +312,7 @@ html {
 
 body {
   background-color: #efcbab;
-  color: #2d1c07;
+  color: red;
 }
 body .italic {
   color: #ff5100;
@@ -337,7 +337,7 @@ body .button-like,
 body .download-resume,
 body .submit-form,
 body .project-details {
-  background-color: #2d1c07;
+  background-color: red;
   color: #f1e0cb;
 }
 body .button-like:hover,
@@ -345,7 +345,7 @@ body .download-resume:hover,
 body .submit-form:hover,
 body .project-details:hover {
   background-color: #f0a46d;
-  color: #2d1c07;
+  color: red;
 }
 body a {
   color: #f1e0cb;
@@ -354,7 +354,7 @@ body a:hover {
   color: #ff5100;
 }
 body #aLink {
-  color: #2d1c07;
+  color: red;
 }
 body #aLink:hover {
   background-color: #f0a46d;
@@ -372,7 +372,7 @@ body .home-arrow:hover, body .home-arrow:focus {
 }
 
 .separation .line {
-  border-bottom: 2px solid #2d1c07;
+  border-bottom: 2px solid red;
 }
 
 .a1,
@@ -384,7 +384,7 @@ body .home-arrow:hover, body .home-arrow:focus {
 
 .carousel_button_left,
 .carousel_button_right {
-  color: #2d1c07;
+  color: red;
   background-color: #fcd7be;
 }
 
@@ -419,10 +419,14 @@ body .home-arrow:hover, body .home-arrow:focus {
 
 .contact-section .contact-info,
 .contact-section .name {
-  color: #2d1c07;
+  color: red;
 }
 .contact-section .form-container {
   background-color: #fcd7be;
+}
+
+.name {
+  color: red;
 }
 
 body {
